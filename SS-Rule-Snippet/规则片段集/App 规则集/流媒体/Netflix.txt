@@ -1,0 +1,5 @@
+[Rule]
+USER-AGENT,Argo*,Proxy
+
+DOMAIN-KEYWORD,netflix,Proxy
+DOMAIN-KEYWORD,nflx,Proxy

@@ -1,0 +1,6 @@
+# > niconico
+USER-AGENT,Niconico
+DOMAIN-SUFFIX,dmc.nico,force-remote-dns
+DOMAIN-SUFFIX,nicovideo.jp,force-remote-dns
+DOMAIN-SUFFIX,nimg.jp
+DOMAIN-SUFFIX,socdm.com
