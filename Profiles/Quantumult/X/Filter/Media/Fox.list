@@ -1,9 +1,6 @@
-# > Fox+ & Fox Now
+# > FOX NOW
 USER-AGENT,FOX%20NOW*,Fox
-USER-AGENT,FOXPlus*,Fox
-DOMAIN-SUFFIX,dashasiafox.akamaized.net,Fox
 DOMAIN-SUFFIX,fox.com,Fox
 DOMAIN-SUFFIX,foxdcg.com,Fox
-DOMAIN-SUFFIX,foxplus.com,Fox
-DOMAIN-SUFFIX,staticasiafox.akamaized.net,Fox
 DOMAIN-SUFFIX,theplatform.com,Fox
+DOMAIN-SUFFIX,uplynk.com,Fox

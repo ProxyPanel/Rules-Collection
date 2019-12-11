@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,admob.com,REJECT
 DOMAIN-SUFFIX,adnxs.com,REJECT
 DOMAIN-SUFFIX,adnyg.com,REJECT
 DOMAIN-SUFFIX,adsensor.org,REJECT
+DOMAIN-SUFFIX,adsymptotic.com,REJECT
 DOMAIN-SUFFIX,adtarget.tech,REJECT
 DOMAIN-SUFFIX,adthor.com,REJECT
 DOMAIN-SUFFIX,adwhirl.com,REJECT
@@ -33,16 +34,19 @@ DOMAIN-SUFFIX,apsalar.com,REJECT
 DOMAIN-SUFFIX,apxadtracking.net,REJECT
 DOMAIN-SUFFIX,axonix.com,REJECT
 DOMAIN-SUFFIX,bayimob.com,REJECT
+DOMAIN-SUFFIX,bjvvqu.cn,REJECT
 DOMAIN-SUFFIX,bulldogcpi.com,REJECT
 DOMAIN-SUFFIX,clotfun.mobi,REJECT
 DOMAIN-SUFFIX,clotfun.online,REJECT
 DOMAIN-SUFFIX,cloudmobi.net,REJECT
 DOMAIN-SUFFIX,cnzz.com,REJECT
 DOMAIN-SUFFIX,ctrmi.com,REJECT
+DOMAIN-SUFFIX,exosrv.com,REJECT
 DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,go2cloud.org,REJECT
 DOMAIN-SUFFIX,growingio.com,REJECT
 DOMAIN-SUFFIX,haloapps.com,REJECT
+DOMAIN-SUFFIX,hypers.com,REJECT
 DOMAIN-SUFFIX,idealads.net,REJECT
 DOMAIN-SUFFIX,inmobi.cn,REJECT
 DOMAIN-SUFFIX,inmobi.com,REJECT
@@ -74,8 +78,10 @@ DOMAIN-SUFFIX,mobclix.com,REJECT
 DOMAIN-SUFFIX,mopub.com,REJECT
 DOMAIN-SUFFIX,okjhb.xyz,REJECT
 DOMAIN-SUFFIX,openx.net,REJECT
+DOMAIN-SUFFIX,pubmatic.com,REJECT
 DOMAIN-SUFFIX,qchannel01.cn,REJECT
 DOMAIN-SUFFIX,rayjump.com,REJECT
+DOMAIN-SUFFIX,rtbasia.com,REJECT
 DOMAIN-SUFFIX,rubiconproject.com,REJECT
 DOMAIN-SUFFIX,scorecardresearch.com,REJECT
 DOMAIN-SUFFIX,sdkclick.com,REJECT
@@ -204,7 +210,7 @@ DOMAIN,galaxy.bjcathay.com,REJECT
 DOMAIN,mdrecv.app.cntvwb.cn,REJECT
 DOMAIN,sdapprecv.app.cntvwb.cn,REJECT
 DOMAIN,vdapprecv.app.cntvwb.cn,REJECT
-# > ChinaNet
+# > ChinaTelecom
 DOMAIN,ad.k.21cn.com,REJECT
 DOMAIN,admarket.21cn.com,REJECT
 DOMAIN,adshows.21cn.com,REJECT
@@ -344,6 +350,7 @@ DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN-SUFFIX,l.qq.com,REJECT
 DOMAIN-SUFFIX,rqd.qq.com,REJECT
 DOMAIN,adsmind.tc.qq.com,REJECT
+DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
 DOMAIN,mtrace.qq.com,REJECT
 DOMAIN,oth.eve.mdt.qq.com,REJECT
@@ -376,7 +383,6 @@ DOMAIN,ivy.pchouse.com.cn,REJECT
 # (U)
 # > UC
 DOMAIN,adtrack.ucweb.com,REJECT
-DOMAIN,applogios.uc.cn,REJECT
 DOMAIN,track.uc.cn,REJECT
 # > Umeng
 DOMAIN,alog.umeng.co,REJECT
@@ -402,6 +408,7 @@ DOMAIN,adse.wsa.ximalaya.com,REJECT
 DOMAIN,adbehavior.wsa.ximalaya.com,REJECT
 DOMAIN,adsebs.ximalaya.com,REJECT
 # > 小红书
+DOMAIN,ads-video-qc.xhscdn.com,REJECT
 DOMAIN,apm-track.xiaohongshu.com,REJECT
 DOMAIN,t-ads.xiaohongshu.com,REJECT
 # (Y)
