@@ -1,6 +1,6 @@
 #**********************************************************************
-# 12.108
-# 2019年12月8日15:19:55
+# 12.22
+# 2019年12月22日19:51:44
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -658,7 +658,6 @@
 (^|\.)t-l\.play\.aiseet\.atianqi\.com$
 (^|\.)t\.l\.qq\.com$
 (^|\.)u\.l\.qq\.com$
-(^|\.)vmindhls\.tc\.qq\.com$
 (^|\.)vv\.play\.aiseet\.atianqi\.com$
 
 # Youku & Tudou
@@ -1566,12 +1565,29 @@
 (^|\.)battlenet\.com$
 (^|\.)blizzard\.com$
 
-# baidu
+# Baidu
 (^|\.)baidu\.com$
 (^|\.)baidupcs\.com$
 (^|\.)bcebos\.com$
 (^|\.)bdstatic\.com$
 (^|\.)hao123\.com$
+
+# Epic
+(^|\.)epicgames\.com$
+(^|\.)helpshift\.com$
+(^|\.)paragon\.com$
+(^|\.)unrealengine.com
+
+# HuaWei
+(^|\.)dbankcdn\.com$
+(^|\.)hc-cdn\.com$
+(^|\.)hicloud\.com$
+(^|\.)huawei\.com$
+(^|\.)huaweicloud\.com$
+(^|\.)huaweishop\.net$
+(^|\.)hwccpc\.com$
+(^|\.)vmall\.com$
+(^|\.)vmallres\.com$
 
 # Prior
 (^|\.)client\.amplifi\.com$
@@ -1605,6 +1621,8 @@
 (^|\.)sogoucdn\.com$
 (^|\.)sohu\.com$
 (^|\.)sohucs\.com$
+(^|\.)sohuno\.com$
+(^|\.)sohurdc\.com$
 
 # Tencent
 (^|\.)gtimg\.cn$
@@ -1668,6 +1686,7 @@
 (^|\.)biquge\.com$
 (^|\.)bitauto\.com$
 (^|\.)bootcss\.com$
+(^|\.)c-ctrip\.com$
 (^|\.)chinacache\.net$
 (^|\.)chinaso\.com$
 (^|\.)chinaz\.com$
@@ -1680,7 +1699,10 @@
 (^|\.)cnbetacdn\.com$
 (^|\.)coolapk\.com$
 (^|\.)coolapkmarket\.com$
+(^|\.)csdn\.net$
+(^|\.)ctrip\.com$
 (^|\.)dangdang\.com$
+(^|\.)dfcfw\.com$
 (^|\.)dianping\.com$
 (^|\.)dilidili\.wang$
 (^|\.)douban\.com$
@@ -1691,6 +1713,7 @@
 (^|\.)easou\.com$
 (^|\.)eastmoney\.com$
 (^|\.)ecitic\.com$
+(^|\.)ele.\.me$
 (^|\.)ewqcxz\.com$
 (^|\.)fang\.com$
 (^|\.)fantasy\.tv$
@@ -1735,9 +1758,13 @@
 (^|\.)kaola\.com$
 (^|\.)knewone\.com$
 (^|\.)kuaidi100\.com$
+(^|\.)lancdns\.com$
+(^|\.)landiannews\.com$
+(^|\.)laomo\.me$
 (^|\.)le\.com$
 (^|\.)lecloud\.com$
 (^|\.)lemicp\.com$
+(^|\.)letitfly\.me$
 (^|\.)letv\.cn$
 (^|\.)letv\.com$
 (^|\.)letvcloud\.com$
@@ -1756,10 +1783,13 @@
 (^|\.)mobike\.com$
 (^|\.)moji\.com$
 (^|\.)moke\.com$
+(^|\.)mpyit\.com$
 (^|\.)myqcloud\.com$
 (^|\.)myunlu\.com$
 (^|\.)netease\.com$
+(^|\.)nruan\.com$
 (^|\.)nuomi\.com$
+(^|\.)oschina\.net$
 (^|\.)ourdvs\.com$
 (^|\.)overcast\.fm$
 (^|\.)pptv\.com$
@@ -1778,7 +1808,6 @@
 (^|\.)qiushibaike\.com$
 (^|\.)qiyi\.com$
 (^|\.)qiyipic\.com$
-(^|\.)qq\.com$
 (^|\.)qqurl\.com$
 (^|\.)quanmin\.tv$
 (^|\.)qunar\.com$
@@ -1806,11 +1835,13 @@
 (^|\.)taobao\.com$
 (^|\.)tencent\.com$
 (^|\.)tenpay\.com$
+(^|\.)th-sjy\.com$
 (^|\.)tianyancha\.com$
 (^|\.)tietuku\.com$
 (^|\.)tiexue\.net$
 (^|\.)tmall\.com$
 (^|\.)tmiaoo\.com$
+(^|\.)trip\.com$
 (^|\.)ttmeiju\.com$
 (^|\.)tudou\.com$
 (^|\.)tuniu\.com$
@@ -1851,6 +1882,7 @@
 (^|\.)ykimg\.com$
 (^|\.)youdao\.com$
 (^|\.)youku\.com$
+(^|\.)ys168\.com$
 (^|\.)yunjiasu-cdn\.net$
 (^|\.)yy\.com$
 (^|\.)zdfans\.com$
@@ -1890,7 +1922,6 @@
 (^|\.)penghu-nsa\.gov\.tw$
 (^|\.)post\.gov\.tw$
 (^|\.)redirector\.gvt1\.com$
-(^|\.)share\.dmhy\.org$
 (^|\.)siraya-nsa\.gov\.tw$
 (^|\.)sunmoonlake\.gov\.tw$
 (^|\.)tools\.google\.com$
@@ -7902,10 +7933,6 @@
 # Discord
 (^|\.)discordapp\.com$
 (^|\.)discordapp\.net$
-
-# Epicgames
-(^|\.)\w*epicgames\w*\.\w*$
-(^|\.)helpshift\.com$
 
 # Google
 (^|\.)googleapis\.cn$

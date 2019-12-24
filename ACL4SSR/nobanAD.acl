@@ -1,6 +1,6 @@
 #**********************************************************************
-# 12.108
-# 2019年12月8日15:19:55
+# 12.22
+# 2019年12月22日19:51:44
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -110,12 +110,29 @@
 (^|\.)battlenet\.com$
 (^|\.)blizzard\.com$
 
-# baidu
+# Baidu
 (^|\.)baidu\.com$
 (^|\.)baidupcs\.com$
 (^|\.)bcebos\.com$
 (^|\.)bdstatic\.com$
 (^|\.)hao123\.com$
+
+# Epic
+(^|\.)epicgames\.com$
+(^|\.)helpshift\.com$
+(^|\.)paragon\.com$
+(^|\.)unrealengine.com
+
+# HuaWei
+(^|\.)dbankcdn\.com$
+(^|\.)hc-cdn\.com$
+(^|\.)hicloud\.com$
+(^|\.)huawei\.com$
+(^|\.)huaweicloud\.com$
+(^|\.)huaweishop\.net$
+(^|\.)hwccpc\.com$
+(^|\.)vmall\.com$
+(^|\.)vmallres\.com$
 
 # Prior
 (^|\.)client\.amplifi\.com$
@@ -434,7 +451,6 @@
 (^|\.)penghu-nsa\.gov\.tw$
 (^|\.)post\.gov\.tw$
 (^|\.)redirector\.gvt1\.com$
-(^|\.)share\.dmhy\.org$
 (^|\.)siraya-nsa\.gov\.tw$
 (^|\.)sunmoonlake\.gov\.tw$
 (^|\.)tools\.google\.com$
@@ -6447,10 +6463,6 @@
 # Discord
 (^|\.)discordapp\.com$
 (^|\.)discordapp\.net$
-
-# Epicgames
-(^|\.)\w*epicgames\w*\.\w*$
-(^|\.)helpshift\.com$
 
 # Google
 (^|\.)googleapis\.cn$

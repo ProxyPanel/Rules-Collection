@@ -26,6 +26,8 @@ DOMAIN-SUFFIX,pscdn.co,ForeignMedia
 DOMAIN-SUFFIX,scdn.co,ForeignMedia
 DOMAIN-SUFFIX,spotify.com,ForeignMedia
 DOMAIN-SUFFIX,spoti.fi,ForeignMedia
+DOMAIN-KEYWORD,spotify.com,ForeignMedia
+DOMAIN-KEYWORD,-spotify-com,ForeignMedia
 # > TIDAL
 USER-AGENT,TIDAL*,ForeignMedia
 DOMAIN-SUFFIX,tidal.com,ForeignMedia
@@ -53,8 +55,13 @@ USER-AGENT,Prime%20Video*,ForeignMedia
 DOMAIN-SUFFIX,aiv-cdn.net,ForeignMedia
 DOMAIN-SUFFIX,aiv-delivery.net,ForeignMedia
 DOMAIN-SUFFIX,amazonvideo.com,ForeignMedia
-DOMAIN-SUFFIX,media-amazon.com,ForeignMedia
 DOMAIN-SUFFIX,primevideo.com,ForeignMedia
+DOMAIN,avodmp4s3ww-a.akamaihd.net,ForeignMedia
+DOMAIN,d25xi40x97liuc.cloudfront.net,ForeignMedia
+DOMAIN,dmqdd6hw24ucf.cloudfront.net,ForeignMedia
+DOMAIN,d22qjgkvxw22r6.cloudfront.net,ForeignMedia
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net,ForeignMedia
+DOMAIN-KEYWORD,avoddashs,ForeignMedia
 # > Bahamut
 USER-AGENT,Anime*,ForeignMedia
 DOMAIN-SUFFIX,bahamut.com.tw,ForeignMedia
