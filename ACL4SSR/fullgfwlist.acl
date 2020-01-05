@@ -19,7 +19,7 @@
 (^|\.)apkmirror\.com$
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
-(^|\.)cccat\.cc$
+(^|\.)cccat\.io$
 (^|\.)cloudcone\.com$
 (^|\.)cloudfront\.net$
 (^|\.)dmm\.co\.jp$
@@ -796,8 +796,7 @@
 (^|\.)cbc\.ca$
 (^|\.)cbsnews\.com$
 (^|\.)cbtc\.org\.hk$
-(^|\.)cccat\.cc$
-(^|\.)cccat\.co$
+(^|\.)cccat\.io$
 (^|\.)ccdtr\.org$
 (^|\.)cchere\.com$
 (^|\.)ccim\.org$

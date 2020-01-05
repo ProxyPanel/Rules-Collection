@@ -472,7 +472,7 @@
 (^|\.)applovin\.com$
 (^|\.)guangzhuiyuan\.com$
 
-# Toutiao	
+# Toutiao
 (^|\.)(ad|sm|dsp|nativeapp|partner)\.toutiao\.com$
 
 # Twitter
@@ -1584,13 +1584,17 @@
 (^|\.)baidupcs\.com$
 (^|\.)baidustatic\.com$
 (^|\.)bcebos\.com$
+(^|\.)bdimg\.com$
 (^|\.)bdstatic\.com$
 (^|\.)hao123\.com$
 (^|\.)hao123img\.com$
 (^|\.)iqiyi\.com$
 (^|\.)iqiyipic\.com$
 (^|\.)jomodns\.com$
-(^|\.)yunjiasu-cdn\.net$
+(^|\.)ppsimg\.com$
+(^|\.)qiyi\.com$
+(^|\.)qiyipic\.com$
+(^|\.)qy\.net$
 
 # Bilibili
 (^|\.)acg\.tv$
@@ -1655,6 +1659,7 @@
 (^|\.)iflytek\.com$
 
 # JD
+(^|\.)360buy\.com$
 (^|\.)360buyimg\.com$
 (^|\.)jdcloud\.com$
 (^|\.)jcloudcs\.com$
@@ -1676,11 +1681,15 @@
 # MI
 (^|\.)duokan\.com$
 (^|\.)mi-img\.com$
+(^|\.)mi\.com$
 (^|\.)miui\.com$
 (^|\.)miwifi\.com$
 (^|\.)xiaomi\.com$
+(^|\.)xiaomi\.net$
+(^|\.)xiaomicp\.com$
 
 # Microsoft
+(^|\.)cn\.bing\.com$
 (^|\.)microsoft\.com$
 (^|\.)msecnd\.net$
 (^|\.)office365\.com$
@@ -1692,6 +1701,7 @@
 (^|\.)officecdn-microsoft-com\.akamaized\.net$
 
 # NetEase
+(^|\.)126\.com$
 (^|\.)126\.net$
 (^|\.)127\.net$
 (^|\.)163\.com$
@@ -1702,6 +1712,7 @@
 (^|\.)youdao\.com$
 
 # Sina
+(^|\.)leju\.com$
 (^|\.)miaopai\.com$
 (^|\.)sina\.cn$
 (^|\.)sina\.com$
@@ -1789,11 +1800,6 @@
 (^|\.)zmzapi\.net$
 (^|\.)zmzfile\.com$
 
-# Yonyou 用友
-(^|\.)yonyou\.com$
-(^|\.)yonyoucloud\.com$
-(^|\.)shufafin\.com$
-
 # TeamViewer
 109.239.140.0/24
 139.220.243.27/32
@@ -1811,10 +1817,8 @@
 
 # Acceleratedirectsites
 (^|\.)12306\.com$
-(^|\.)126\.com$
 (^|\.)1688\.com$
 (^|\.)17k\.com$
-(^|\.)360buy\.com$
 (^|\.)360doc\.com$
 (^|\.)36kr\.com$
 (^|\.)51job\.com$
@@ -1824,19 +1828,20 @@
 (^|\.)acfun\.tv$
 (^|\.)air-matters\.com$
 (^|\.)air-matters\.io$
+(^|\.)aixifan\.com$
 (^|\.)algocasts\.io$
 (^|\.)apache\.org$
-(^|\.)bdimg\.com$
-(^|\.)bing\.com$
 (^|\.)biqudu\.com$
 (^|\.)biquge\.com$
 (^|\.)bitauto\.com$
 (^|\.)c-ctrip\.com$
 (^|\.)camera360\.com$
+(^|\.)cdnmama\.com$
 (^|\.)che168\.com$
 (^|\.)chinacache\.net$
 (^|\.)chinaso\.com$
 (^|\.)chinaz\.com$
+(^|\.)chinaz\.net$
 (^|\.)cibntv\.net$
 (^|\.)clouddn\.com$
 (^|\.)cloudxns\.net$
@@ -1855,10 +1860,14 @@
 (^|\.)douban\.com$
 (^|\.)doubanio\.com$
 (^|\.)douyu\.com$
+(^|\.)dpfile\.com$
+(^|\.)duowan\.com$
 (^|\.)dytt8\.net$
 (^|\.)easou\.com$
+(^|\.)eastday\.com$
 (^|\.)eastmoney\.com$
 (^|\.)ecitic\.com$
+(^|\.)ele\.me$
 (^|\.)ewqcxz\.com$
 (^|\.)fang\.com$
 (^|\.)fantasy\.tv$
@@ -1868,6 +1877,8 @@
 (^|\.)firefox\.com$
 (^|\.)frdic\.com$
 (^|\.)fresh-ideas\.cc$
+(^|\.)ganji\.com$
+(^|\.)ganjistatic1\.com$
 (^|\.)geetest\.com$
 (^|\.)godic\.net$
 (^|\.)gravatar\.com$
@@ -1894,11 +1905,13 @@
 (^|\.)jianshu\.io$
 (^|\.)jianshuapi\.com$
 (^|\.)jiathis\.com$
+(^|\.)jmstatic\.com$
 (^|\.)jumei\.com$
 (^|\.)kanimg\.com$
 (^|\.)kankan\.com$
 (^|\.)kaola\.com$
 (^|\.)knewone\.com$
+(^|\.)ksyungslb\.com$
 (^|\.)kuaidi100\.com$
 (^|\.)kugou\.com$
 (^|\.)lancdns\.com$
@@ -1920,14 +1933,17 @@
 (^|\.)meituan\.com$
 (^|\.)meituan\.net$
 (^|\.)meizu\.com$
-(^|\.)mi\.com$
 (^|\.)mobike\.com$
+(^|\.)mogu\.com$
+(^|\.)mogucdn\.com$
+(^|\.)mogujie\.com$
 (^|\.)moji\.com$
 (^|\.)moke\.com$
 (^|\.)mubu\.com$
 (^|\.)myunlu\.com$
 (^|\.)nruan\.com$
 (^|\.)nuomi\.com$
+(^|\.)onlinedown\.net$
 (^|\.)oracle\.com$
 (^|\.)oschina\.net$
 (^|\.)ourdvs\.com$
@@ -1936,6 +1952,7 @@
 (^|\.)pptv\.com$
 (^|\.)qbox\.me$
 (^|\.)qcloud\.com$
+(^|\.)qcloudcdn\.com$
 (^|\.)qdaily\.com$
 (^|\.)qdmm\.com$
 (^|\.)qhimg\.com$
@@ -1946,11 +1963,10 @@
 (^|\.)qiniucdn\.com$
 (^|\.)qiniudn\.com$
 (^|\.)qiushibaike\.com$
-(^|\.)qiyi\.com$
-(^|\.)qiyipic\.com$
 (^|\.)qqurl\.com$
 (^|\.)quanmin\.tv$
 (^|\.)qunar\.com$
+(^|\.)qunarzz\.com$
 (^|\.)rarbg\.to$
 (^|\.)repaik\.com$
 (^|\.)rrmj\.tv$
@@ -1962,12 +1978,15 @@
 (^|\.)smtcdns\.net$
 (^|\.)smzdm\.com$
 (^|\.)snwx\.com$
+(^|\.)soufunimg\.com$
 (^|\.)ssl-images-amazon\.com$
 (^|\.)sspai\.com$
 (^|\.)startssl\.com$
 (^|\.)suning\.com$
 (^|\.)tenpay\.com$
 (^|\.)th-sjy\.com$
+(^|\.)tianqi\.com$
+(^|\.)tianqistatic\.com$
 (^|\.)tianyancha\.com$
 (^|\.)tietuku\.com$
 (^|\.)tiexue\.net$
@@ -1976,20 +1995,18 @@
 (^|\.)ttmeiju\.com$
 (^|\.)tudou\.com$
 (^|\.)tuniu\.com$
+(^|\.)tuniucdn\.com$
 (^|\.)upyun\.com$
 (^|\.)uxengine\.net$
 (^|\.)v2ex\.com$
 (^|\.)vmware\.com$
 (^|\.)wandoujia\.com$
 (^|\.)weather\.com$
-(^|\.)weico\.cc$
 (^|\.)weidian\.com$
 (^|\.)weiphone\.com$
 (^|\.)weiphone\.net$
 (^|\.)xdrig\.com$
 (^|\.)xiaojukeji\.com$
-(^|\.)xiaomi\.net$
-(^|\.)xiaomicp\.com$
 (^|\.)ximalaya\.com$
 (^|\.)xinhuanet\.com$
 (^|\.)xitek\.com$
@@ -2001,12 +2018,14 @@
 (^|\.)yangkeduo\.com$
 (^|\.)yeepay\.com$
 (^|\.)yhd\.com$
+(^|\.)yihaodianimg\.com$
 (^|\.)yinxiang\.com$
 (^|\.)yinyuetai\.com$
 (^|\.)yixia\.com$
 (^|\.)ys168\.com$
+(^|\.)yuewen\.com$
 (^|\.)yy\.com$
-(^|\.)zdfans\.com$
+(^|\.)yystatic\.com$
 (^|\.)zealer\.com$
 (^|\.)zhangzishi\.cc$
 (^|\.)zhanqi\.tv$
@@ -8094,7 +8113,7 @@
 (^|\.)apkmirror\.com$
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
-(^|\.)cccat\.cc$
+(^|\.)cccat\.io$
 (^|\.)cloudcone\.com$
 (^|\.)cloudfront\.net$
 (^|\.)dmm\.co\.jp$
@@ -8865,8 +8884,7 @@
 (^|\.)cbc\.ca$
 (^|\.)cbsnews\.com$
 (^|\.)cbtc\.org\.hk$
-(^|\.)cccat\.cc$
-(^|\.)cccat\.co$
+(^|\.)cccat\.io$
 (^|\.)ccdtr\.org$
 (^|\.)cchere\.com$
 (^|\.)ccim\.org$

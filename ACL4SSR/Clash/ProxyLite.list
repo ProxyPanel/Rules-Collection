@@ -14,7 +14,7 @@ DOMAIN-SUFFIX,tw
 DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,bit.no.com
 DOMAIN-SUFFIX,btlibrary.me
-DOMAIN-SUFFIX,cccat.cc
+DOMAIN-SUFFIX,cccat.io
 DOMAIN-SUFFIX,cloudcone.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,dmm.co.jp
@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,doub.io
 DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,gvtw.com
+DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,ping.pe
 DOMAIN-SUFFIX,quora.com
@@ -73,6 +74,7 @@ DOMAIN-SUFFIX,azurewebsites.net
 DOMAIN-SUFFIX,bandwagonhost.com
 DOMAIN-SUFFIX,bbc.co
 DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bkrtx.com
 DOMAIN-SUFFIX,blogcdn.com
 DOMAIN-SUFFIX,blogger.com
