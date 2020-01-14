@@ -1,6 +1,6 @@
 #**********************************************************************
-# 01.04
-# 2020年1月4日13:38:55
+# 01.11
+# 2020年1月11日12:49:12
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -115,14 +115,9 @@
 
 # 58
 (^|\.)(58|imp|stat)\.xgo\.com\.cn$
-(^|\.)(brandshow|jing|track)\.58\.com$
+(^|\.)(brandshow|jing|track|tracklog)\.58\.com$
 
-# Auto home
-(^|\.)(33|al|alert|applogapi|c|cmx|dspmnt|pcd|pvx|rd|rdx|stats)\.autohome\.com\.cn$
-(^|\.)adm\d\.autoimg\.cn$
-(^|\.)push\.app\.autohome\.com\.cn$
-
-# Ali
+# Alibaba
 (^|\.)(adashx4yt|adash-c|ai|re|rj|simaba)\.m\.taobao\.com$
 (^|\.)(afp|atanx|atanx2|gma|gtms\d\d)\.alicdn\.com$
 (^|\.)(fav|m|redirect|srd|tns)\.simba\.taobao\.com$
@@ -164,6 +159,14 @@
 (^|\.)practivate\.adobe\.com$
 (^|\.)wip3\.adobe\.com$
 (^|\.)wwis-dubc1-vip60\.adobe\.com$
+
+# Apple
+(^|\.)adserver\.unityads\.unity3d\.com$
+
+# AutoHome
+(^|\.)(33|adproxy|al|alert|applogapi|c|cmx|dspmnt|pcd|pvx|rd|rdx|stats)\.autohome\.com\.cn$
+(^|\.)adm\d\.autoimg\.cn$
+(^|\.)push\.app\.autohome\.com\.cn$
 
 # Baidu
 (^|\.)(a|adm|adscdn|afd|als|anquan|appc|as|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|cpu|cpu-admin|crs|drmcmm|e|eclick|eiv|entry)\.baidu\.(com|cn)$
@@ -296,9 +299,6 @@
 (^|\.)zz\.bdstatic\.com$
 (^|\.)zzy1\.quyaoya\.com$
 
-# Apple
-(^|\.)adserver\.unityads\.unity3d\.com$
-
 # Book-app 起点 掌阅 书旗 宜搜
 (^|\.)(adm|assets|tjlog)(\.ps|)\.easou\.com$
 (^|\.)(ad|push|sys)\.zhangyue\.com$
@@ -336,12 +336,14 @@
 (^|\.)xyrkl\.com$
 (^|\.)zhuanfakong\.com$
 
+# ByteDance 头条抖音
+(^|\.)(ad|sm|dsp|nativeapp|partner|track)\.toutiao\.com$
+(^|\.)ic\.snssdk\.com$
+(^|\.)log\.snssdk\.com$
+(^|\.)xlog\.snssdk\.com$
+
 # Dangdang
 (^|\.)(a|click|schprompt|t)\.dangdang\.com$
-
-# Douyin
-(^|\.)log\.snssdk\.com$
-(^|\.)ic\.snssdk\.com$
 
 # Duomi
 (^|\.)ad\.duomi\.com$
@@ -476,9 +478,6 @@
 # Teleplus
 (^|\.)applovin\.com$
 (^|\.)guangzhuiyuan\.com$
-
-# Toutiao	
-(^|\.)(ad|sm|dsp|nativeapp|partner)\.toutiao\.com$
 
 # Twitter
 (^|\.)(ads|syndication|syndication-o|analytics|scribe|p)\.twitter\.com$
@@ -663,7 +662,6 @@
 (^|\.)t-l\.play\.aiseet\.atianqi\.com$
 (^|\.)t\.l\.qq\.com$
 (^|\.)u\.l\.qq\.com$
-(^|\.)vmindhls\.tc\.qq\.com$
 (^|\.)vv\.play\.aiseet\.atianqi\.com$
 
 # Youku & Tudou
@@ -901,6 +899,7 @@
 (^|\.)bfshan\.cn$
 (^|\.)biddingos\.com$
 (^|\.)biddingx\.com$
+(^|\.)bjvvqu\.cn$
 (^|\.)bjxiaohua\.com$
 (^|\.)bloggerads\.net$
 (^|\.)branch\.io$
@@ -935,6 +934,7 @@
 (^|\.)cpx24\.com$
 (^|\.)crasheye\.cn$
 (^|\.)crosschannel\.com$
+(^|\.)ctrmi\.com$
 (^|\.)customer-security\.online$
 (^|\.)daoyoudao\.com$
 (^|\.)datouniao\.com$
@@ -977,6 +977,7 @@
 (^|\.)guomob\.com$
 (^|\.)haoghost\.com$
 (^|\.)hivecn\.cn$
+(^|\.)hypers\.com$
 (^|\.)icast\.cn$
 (^|\.)igexin\.com$
 (^|\.)il8r\.com$
@@ -984,6 +985,8 @@
 (^|\.)immob\.cn$
 (^|\.)inad\.com$
 (^|\.)inmobi\.cn$
+(^|\.)inmobi\.net$
+(^|\.)inmobicdn\.cn$
 (^|\.)inmobicdn\.net$
 (^|\.)innity\.com$
 (^|\.)instabug\.com$
@@ -1012,6 +1015,7 @@
 (^|\.)krux\.net$
 (^|\.)leadboltads\.net$
 (^|\.)lnk0\.com$
+(^|\.)lnk8\.cn$
 (^|\.)localytics\.com$
 (^|\.)lomark\.cn$
 (^|\.)lotuseed\.com$
@@ -1218,8 +1222,12 @@
 (^|\.)am15\.net$
 (^|\.)amobee\.com$
 (^|\.)appadhoc\.com$
+(^|\.)appier\.net$
+(^|\.)applift\.com$
+(^|\.)apsalar\.com$
 (^|\.)atas\.io$
 (^|\.)awempire\.com$
+(^|\.)axonix\.com$
 (^|\.)beintoo\.com$
 (^|\.)bepolite\.eu$
 (^|\.)bidvertiser\.com$
@@ -1248,16 +1256,25 @@
 (^|\.)imrworldwide\.com$
 (^|\.)inmobi\.com$
 (^|\.)inter1ads\.com$
+(^|\.)ironsrc\.com$
+(^|\.)iskyworker\.com$
 (^|\.)jizzads\.com$
 (^|\.)juicyads\.com$
+(^|\.)kochava\.com$
 (^|\.)leadbolt\.com$
 (^|\.)leadbolt\.net$
 (^|\.)leadboltads\.net$
 (^|\.)leadboltapps\.net$
 (^|\.)leadboltmobile\.net$
+(^|\.)lenzmx\.com$
+(^|\.)liveadvert\.com$
 (^|\.)marketgid\.com$
 (^|\.)marketo\.com$
 (^|\.)mdotm\.com$
+(^|\.)medialytics\.com$
+(^|\.)medialytics\.io$
+(^|\.)meetrics\.com$
+(^|\.)meetrics\.net$
 (^|\.)mgid\.com$
 (^|\.)millennialmedia\.com$
 (^|\.)moatads \.com$
@@ -1274,6 +1291,7 @@
 (^|\.)popads\.net$
 (^|\.)propellerads\.com$
 (^|\.)quantserve\.com$
+(^|\.)rayjump\.com$
 (^|\.)revdepo\.com$
 (^|\.)rubiconproject\.com$
 (^|\.)sape\.ru$
@@ -1281,16 +1299,23 @@
 (^|\.)segment\.com$
 (^|\.)serving-sys\.com$
 (^|\.)sharethis\.com$
+(^|\.)smaato\.com$
+(^|\.)smaato\.net$
 (^|\.)smartadserver\.com$
+(^|\.)smartnews-ads\.com$
 (^|\.)startapp\.com$
 (^|\.)startappexchange\.com$
 (^|\.)statcounter\.com$
 (^|\.)steelhousemedia\.com$
+(^|\.)supersonic\.com$
 (^|\.)tapjoy\.com$
 (^|\.)tapjoyads\.com$
 (^|\.)trafficjunky\.com$
 (^|\.)turn\.com$
+(^|\.)vidoomy\.com$
 (^|\.)viglink\.com$
+(^|\.)voicefive\.com$
+(^|\.)wedolook\.com$
 (^|\.)yadro\.ru$
 (^|\.)yengo\.com$
 (^|\.)zedo\.com$
@@ -1484,7 +1509,6 @@
 222.186.61.97/32
 222.187.226.96/32
 223.6.255.99/32
-
 
 #**********************************************************************
 [proxy_list]
