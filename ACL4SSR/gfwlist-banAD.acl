@@ -1,6 +1,6 @@
 #**********************************************************************
-# 01.11
-# 2020年1月11日12:49:12
+# 01.17
+# 2020年1月17日22:45:18
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -1519,7 +1519,6 @@
 (^|\.)dmm\.co\.jp$
 (^|\.)githubusercontent\.com$
 (^|\.)gvt\w\.com$
-(^|\.)microsoft\.com$
 (^|\.)ping\.pe$
 (^|\.)s3\.amazonaws\.com$
 (^|\.)tumbex\.com$
@@ -7145,7 +7144,94 @@
 203.174.66.64/26
 203.174.77.0/24
 
-# MytvSUPER & Netflix
+
+# Microsoft Onenote 
+(^|\.)1drv\.com$
+(^|\.)aadrm\.com$
+(^|\.)acompli\.com$
+(^|\.)acompli\.net$
+(^|\.)aka\.ms$
+(^|\.)akadns\.net$
+(^|\.)aspnetcdn\.com$
+(^|\.)assets-yammer\.com$
+(^|\.)azure\.com$
+(^|\.)azure\.net$
+(^|\.)azureedge\.net$
+(^|\.)azurerms\.com$
+(^|\.)bing\.com$
+(^|\.)cloudapp\.net$
+(^|\.)cloudappsecurity\.com$
+(^|\.)edgesuite\.net$
+(^|\.)getmicrosoftkey\.com$
+(^|\.)gfx\.ms$
+(^|\.)hotmail\.com$
+(^|\.)live\.com$
+(^|\.)live\.net$
+(^|\.)lync\.com$
+(^|\.)microsoft\.com$
+(^|\.)microsoftazuread-sso\.com$
+(^|\.)microsoftonline-p\.com$
+(^|\.)microsoftonline-p\.net$
+(^|\.)microsoftonline\.com$
+(^|\.)microsoftstream\.com$
+(^|\.)msappproxy\.net$
+(^|\.)msauth\.net$
+(^|\.)msauthimages\.net$
+(^|\.)msecnd\.net$
+(^|\.)msedge\.net$
+(^|\.)msft\.net$
+(^|\.)msftauth\.net$
+(^|\.)msftauthimages\.net$
+(^|\.)msftidentity\.com$
+(^|\.)msidentity\.com$
+(^|\.)msn\.com$
+(^|\.)msocdn\.com$
+(^|\.)msocsp\.com$
+(^|\.)mstea\.ms$
+(^|\.)o365weve\.com$
+(^|\.)oaspapps\.com$
+(^|\.)office\.com$
+(^|\.)office\.net$
+(^|\.)office365\.com$
+(^|\.)officecdn-microsoft-com\.akamaized\.net$
+(^|\.)officeppe\.net$
+(^|\.)omniroot\.com$
+(^|\.)onedrive\.com$
+(^|\.)onenote\.com$
+(^|\.)onenote\.net$
+(^|\.)onestore\.ms$
+(^|\.)onmicrosoft\.com$
+(^|\.)outlook\.com$
+(^|\.)outlookmobile\.com$
+(^|\.)phonefactor\.net$
+(^|\.)public-trust\.com$
+(^|\.)s-microsoft\.com$
+(^|\.)sfbassets\.com$
+(^|\.)sfx\.ms$
+(^|\.)sharepoint\.com$
+(^|\.)sharepointonline\.com$
+(^|\.)skype\.com$
+(^|\.)skypeassets\.com$
+(^|\.)skypeforbusiness\.com$
+(^|\.)staffhub\.ms$
+(^|\.)svc\.ms$
+(^|\.)sway-cdn\.com$
+(^|\.)sway-extensions\.com$
+(^|\.)sway\.com$
+(^|\.)trafficmanager\.net$
+(^|\.)uservoice\.com$
+(^|\.)virtualearth\.net$
+(^|\.)visualstudio\.com$
+(^|\.)windows-ppe\.net$
+(^|\.)windows\.com$
+(^|\.)windows\.net$
+(^|\.)windowsazure\.com$
+(^|\.)windowsupdate\.com$
+(^|\.)wunderlist\.com$
+(^|\.)yammer\.com$
+(^|\.)yammerusercontent\.com$
+
+# Netflix & MytvSUPER
 (^|\.)\w*nowtv100\w*\.\w*$
 (^|\.)\w*rthklive\w*\.\w*$
 (^|\.)mytvsuper\.com$
@@ -7171,11 +7257,6 @@
 198.45.48.0/20
 207.45.72.0/22
 208.75.76.0/24
-
-# Onenote
-(^|\.)live\.net$
-(^|\.)live\.com$
-(^|\.)onenote\.com$
 
 # Potato Chat
 (^|\.)potato\.im$
@@ -7234,5 +7315,6 @@
 (^|\.)neulion\.com$
 (^|\.)icntv\.xyz$
 (^|\.)flzbcdn\.xyz$
+
 #华文电视
 (^|\.)ocnttv\.com$
