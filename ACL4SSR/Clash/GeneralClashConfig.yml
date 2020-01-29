@@ -29,6 +29,8 @@ external-controller: '127.0.0.1:9090'
 # 参数应填写配置目录的相对路径或绝对路径。
 # http://127.0.0.1:9090/ui/#/
 # external-ui: folder
+#external-ui: dashboard_yacd    #yacd面板：https://github.com/haishanh/yacd
+external-ui: dashboard_Razord   #Razord面板：http://clash.razord.top/#/proxies
 
 # RESTful API 的口令 (可选)
 # secret: ""
