@@ -2,5 +2,5 @@
 # > 愛奇藝台灣站
 DOMAIN,cache.video.iqiyi.com,DomesticMedia
 # > bilibili
-DOMAIN-SUFFIX,bilibili.com,DomesticMedia
+DOMAIN,api.bilibili.com,DomesticMedia
 DOMAIN,upos-hz-mirrorakam.akamaized.net,DomesticMedia
