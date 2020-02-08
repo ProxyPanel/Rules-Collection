@@ -1,6 +1,6 @@
 #**********************************************************************
-# 01.17
-# 2020年1月17日22:45:18
+# 02.07
+# 2020年2月7日09:07:32
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -1532,14 +1532,24 @@
 (^|\.)cloudcone\.com$
 (^|\.)cloudfront\.net$
 (^|\.)dmm\.co\.jp$
+(^|\.)doub\.io$
+(^|\.)gameloft\.com$
 (^|\.)githubusercontent\.com$
 (^|\.)gvt\w\.com$
+(^|\.)inoreader\.com$
+(^|\.)ip138\.com$
+(^|\.)microsoft\.com$
 (^|\.)ping\.pe$
+(^|\.)quora\.com$
+(^|\.)reddit\.com$
 (^|\.)s3\.amazonaws\.com$
+(^|\.)teddysun\.com$
 (^|\.)tumbex\.com$
 (^|\.)tvb\.com$
 (^|\.)twdvd\.com$
+(^|\.)unsplash\.com$
 (^|\.)xn--i2ru8q2qg\.com$
+(^|\.)yunpanjingling\.com$
 
 # 国外域名关键字
 (^|\.)\w*1e100\w*\.\w*$

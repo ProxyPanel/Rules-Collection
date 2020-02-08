@@ -64,7 +64,7 @@
 
 ## 相关推荐
 
-[** 功夫翻墙网 **](https://geckoiplc.com/register?aff=5150)	
+[** 功夫翻墙网 **](https://cutt.ly/tizi)	
 
 我所选择的节点提供商。稳定、速度快、价格适中。节点遍布全球，可使用 Netflix，亦提供翻墙回国节点。
 

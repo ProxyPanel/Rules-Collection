@@ -1,6 +1,6 @@
 #**********************************************************************
-# 01.21
-# 2020年1月21日19:04:20
+# 02.07
+# 2020年2月7日09:07:32
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -27,6 +27,14 @@
 #**********************************************************************
 [bypass_list]
 # 直连列表
+
+# MyList$
+(^|\.)423down\.com$
+(^|\.)bitwarden\.com$
+(^|\.)chaipip\.com$
+(^|\.)hrtsea\.com$
+(^|\.)laomo\.me$
+(^|\.)mpyit\.com$
 
 # CN域名直连
 (^|\.)cn$
@@ -63,8 +71,10 @@
 (^|\.)360\.com$
 (^|\.)360kuai\.com$
 (^|\.)360safe\.com$
+(^|\.)dhrest\.com$
 (^|\.)qhres\.com$
 (^|\.)qhstatic\.com$
+(^|\.)qhupdate\.com$
 (^|\.)so\.com$
 
 # 4399
@@ -94,6 +104,7 @@
 (^|\.)amap\.com$
 (^|\.)autonavi\.com$
 (^|\.)dingtalk\.com$
+(^|\.)ele\.me$
 (^|\.)hichina\.com$
 (^|\.)mmstat\.com$
 (^|\.)mxhichina\.com$
@@ -104,6 +115,7 @@
 (^|\.)tbcdn\.com$
 (^|\.)tmall\.com$
 (^|\.)tmall\.hk$
+(^|\.)ucweb\.com$
 (^|\.)xiami\.com$
 (^|\.)xiami\.net$
 (^|\.)ykimg\.com$
@@ -158,10 +170,16 @@
 (^|\.)bytecdn\.cn$
 (^|\.)bytedance\.com$
 (^|\.)feiliao\.com$
+(^|\.)gifshow\.com$
+(^|\.)huoshan\.com$
 (^|\.)iesdouyin\.com$
+(^|\.)ixigua\.com$
+(^|\.)kaishou\.com$
+(^|\.)kspkg\.com$
 (^|\.)pstatp\.com$
 (^|\.)snssdk\.com$
 (^|\.)toutiao\.com$
+(^|\.)yximgs\.com$
 
 # CCTV
 (^|\.)cctv\.com$
@@ -199,21 +217,24 @@
 (^|\.)iflytek\.com$
 
 # Iqiyi
+(^|\.)71\.am$
+(^|\.)71edge\.com$
 (^|\.)iqiyi\.com$
 (^|\.)iqiyipic\.com$
 (^|\.)ppsimg\.com$
 (^|\.)qiyi\.com$
 (^|\.)qiyipic\.com$
-(^|\.)qy\.net
+(^|\.)qy\.net$
 
 # JD
 (^|\.)360buy\.com$
 (^|\.)360buyimg\.com$
-(^|\.)jdcloud\.com$
 (^|\.)jcloudcs\.com$
 (^|\.)jd\.com$
 (^|\.)jd\.hk$
+(^|\.)jdcloud\.com$
 (^|\.)jdpay\.com$
+(^|\.)paipai\.com$
 
 # Kingsoft
 (^|\.)iciba\.com$
@@ -282,6 +303,7 @@
 (^|\.)xiaoka\.tv$
 
 # Sohu Sogo
+(^|\.)go2map\.com$
 (^|\.)itc\.cn$
 (^|\.)sogo\.com$
 (^|\.)sogou\.com$
@@ -317,6 +339,7 @@
 (^|\.)steamstat\.us$
 
 # Tencent
+(^|\.)foxmail\.com $
 (^|\.)gtimg\.cn$
 (^|\.)gtimg\.com$
 (^|\.)idqqimg\.com$
@@ -327,12 +350,14 @@
 (^|\.)qpic\.cn$
 (^|\.)qq\.com$
 (^|\.)qqmail\.com$
+(^|\.)qqurl\.com$
 (^|\.)qtimg\.cn$
 (^|\.)smtcdns\.com$
 (^|\.)soso\.com$
 (^|\.)tencent-cloud\.net$
 (^|\.)tencent\.com$
 (^|\.)tencentmind\.com$
+(^|\.)tenpay\.com $
 (^|\.)weixin\.com$
 (^|\.)weiyun\.com$
 
@@ -379,8 +404,14 @@
 (^|\.)springsunday\.net$
 (^|\.)tjupt\.org$
 (^|\.)totheglory\.im$
+(^|\.)msg\.vg$
+(^|\.)hdtime\.org$
+(^|\.)leaguehd\.com$
+(^|\.)pthome\.net$
+(^|\.)beitai\.pt$
 
 # TeamViewer
+(^|\.)teamviewer\.com$
 109.239.140.0/24
 139.220.243.27/32
 172.16.102.56/32
@@ -406,6 +437,7 @@
 (^|\.)51job\.com$
 (^|\.)51jobcdn\.com$
 (^|\.)56\.com$
+(^|\.)abchina\.com$
 (^|\.)abercrombie\.com$
 (^|\.)acfun\.tv$
 (^|\.)air-matters\.com$
@@ -425,6 +457,7 @@
 (^|\.)chinaso\.com$
 (^|\.)chinaz\.com$
 (^|\.)chinaz\.net$
+(^|\.)chuimg\.com$
 (^|\.)cibntv\.net$
 (^|\.)clouddn\.com$
 (^|\.)cloudxns\.net$
@@ -447,12 +480,12 @@
 (^|\.)douyutv\.com$
 (^|\.)dpfile\.com$
 (^|\.)duowan\.com$
+(^|\.)dxycdn\.com$
 (^|\.)dytt8\.net$
 (^|\.)easou\.com$
 (^|\.)eastday\.com$
 (^|\.)eastmoney\.com$
 (^|\.)ecitic\.com$
-(^|\.)ele\.me$
 (^|\.)ewqcxz\.com$
 (^|\.)fang\.com$
 (^|\.)fantasy\.tv$
@@ -465,6 +498,7 @@
 (^|\.)ganji\.com$
 (^|\.)ganjistatic1\.com$
 (^|\.)geetest\.com$
+(^|\.)geilicdn\.com$
 (^|\.)godic\.net$
 (^|\.)gravatar\.com$
 (^|\.)guazi\.com$
@@ -476,6 +510,7 @@
 (^|\.)hongxiu\.com$
 (^|\.)huajiao\.com$
 (^|\.)hupu\.com$
+(^|\.)huxiucdn\.com$
 (^|\.)huya\.com$
 (^|\.)ifeng\.com$
 (^|\.)ifengimg\.com$
@@ -496,6 +531,7 @@
 (^|\.)kankan\.com$
 (^|\.)kaola\.com$
 (^|\.)knewone\.com$
+(^|\.)koowo\.com$
 (^|\.)ksyungslb\.com$
 (^|\.)kuaidi100\.com$
 (^|\.)kugou\.com$
@@ -511,10 +547,12 @@
 (^|\.)luoo\.net$
 (^|\.)lvmama\.com$
 (^|\.)lxdns\.com$
+(^|\.)maoyan\.com$
 (^|\.)meilishuo\.com$
 (^|\.)meituan\.com$
 (^|\.)meituan\.net$
 (^|\.)meizu\.com$
+(^|\.)miguvideo\.com$
 (^|\.)mobike\.com$
 (^|\.)mogu\.com$
 (^|\.)mogucdn\.com$
@@ -538,6 +576,7 @@
 (^|\.)qdaily\.com$
 (^|\.)qdmm\.com$
 (^|\.)qhimg\.com$
+(^|\.)qianqian\.com$
 (^|\.)qidian\.com$
 (^|\.)qihucdn\.com$
 (^|\.)qin\.io$
@@ -545,7 +584,6 @@
 (^|\.)qiniucdn\.com$
 (^|\.)qiniudn\.com$
 (^|\.)qiushibaike\.com$
-(^|\.)qqurl\.com$
 (^|\.)quanmin\.tv$
 (^|\.)qunar\.com$
 (^|\.)qunarzz\.com$
@@ -554,6 +592,8 @@
 (^|\.)rrmj\.tv$
 (^|\.)ruguoapp\.com$
 (^|\.)sandai\.net$
+(^|\.)sankuai\.com$
+(^|\.)sf-express\.com$
 (^|\.)shumilou\.net$
 (^|\.)simplecd\.me$
 (^|\.)sm\.ms$
@@ -565,6 +605,7 @@
 (^|\.)sspai\.com$
 (^|\.)startssl\.com$
 (^|\.)suning\.com$
+(^|\.)taihe\.com$
 (^|\.)tenpay\.com$
 (^|\.)th-sjy\.com$
 (^|\.)tianqi\.com$
@@ -584,13 +625,14 @@
 (^|\.)v2ex\.com$
 (^|\.)vmware\.com$
 (^|\.)wandoujia\.com$
-(^|\.)weico\.cc$
 (^|\.)weather\.com$
+(^|\.)weico\.cc$
 (^|\.)weidian\.com$
 (^|\.)weiphone\.com$
 (^|\.)weiphone\.net$
 (^|\.)womai\.com$
 (^|\.)xdrig\.com$
+(^|\.)xiachufang\.com$
 (^|\.)xiaojukeji\.com$
 (^|\.)ximalaya\.com$
 (^|\.)xinhuanet\.com$
@@ -598,7 +640,7 @@
 (^|\.)xiumi\.us$
 (^|\.)xmcdn\.com$
 (^|\.)xslb\.net$
-(^|\.)xunlei\.com$
+(^|\.)xueqiu\.com$
 (^|\.)xunlei\.com$
 (^|\.)yach\.me$
 (^|\.)yangkeduo\.com$
@@ -6742,14 +6784,24 @@
 (^|\.)cloudcone\.com$
 (^|\.)cloudfront\.net$
 (^|\.)dmm\.co\.jp$
+(^|\.)doub\.io$
+(^|\.)gameloft\.com$
 (^|\.)githubusercontent\.com$
 (^|\.)gvt\w\.com$
+(^|\.)inoreader\.com$
+(^|\.)ip138\.com$
+(^|\.)microsoft\.com$
 (^|\.)ping\.pe$
+(^|\.)quora\.com$
+(^|\.)reddit\.com$
 (^|\.)s3\.amazonaws\.com$
+(^|\.)teddysun\.com$
 (^|\.)tumbex\.com$
 (^|\.)tvb\.com$
 (^|\.)twdvd\.com$
+(^|\.)unsplash\.com$
 (^|\.)xn--i2ru8q2qg\.com$
+(^|\.)yunpanjingling\.com$
 
 # 国外域名关键字
 (^|\.)\w*1e100\w*\.\w*$
