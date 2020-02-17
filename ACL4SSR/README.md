@@ -6,13 +6,15 @@
 * 有问题可以发issue或者私聊：**https://t.me/leosam1024**
 * [关于中国的互联网](https://github.com/ACL4SSR/ACL4SSR/wiki/关于中国的互联网)
 
+# 安卓 SSR 去广告ACL规则
+  * 屏蔽小米手机和魅族flyme rom系统广告
+  * 国内网站均直接连接
+  * 屏蔽常用视频网站广告
+  * 屏蔽常用网站广告、其他流媒体网站广告
+  * 屏蔽部分应用程序开屏广告
+  * 屏蔽部分运营商劫持网页弹出的漂浮球广告、流量统计
+  * 拦截常用应用程序的隐私跟踪、行为分析、数据统计
 
-# Root手机推荐：
-* 1.自带去广告的VIA浏览器 http://www.coolapk.com/apk/mark.via
-* 2.HOSTS 广告快走中国版 http://www.coolapk.com/apk/mark.via
-* 3.HOSTS 广告快走开AdAway http://www.coolapk.com/apk/org.adaway
-* https://github.com/neko-dev/neohosts
-* Google Hosts 请移步 https://github.com/googlehosts/hosts
 
 # 版本解释
 
@@ -45,15 +47,7 @@
 | GeneralClashConfig.yml | clash配置文件        | 放行一堆国内的常用域名，配合系统代理更牛逼。 配置很全，自带中文注释。可以自行使用 |
 | pref.ini               | subconverter配置文件 | 更改了一些基础配置，将规则变成ACL4SSR                        |
 
-# 安卓 SSR 去广告ACL规则
 
-* 屏蔽小米手机和魅族flyme rom系统广告
-* 国内网站均直接连接
-* 屏蔽常用视频网站广告
-* 屏蔽常用网站广告、其他流媒体网站广告
-* 屏蔽部分应用程序开屏广告
-* 屏蔽部分运营商劫持网页弹出的漂浮球广告、流量统计
-* 拦截常用应用程序的隐私跟踪、行为分析、数据统计
 
 # ♻️ SS/SSR ACL Files Download：
 * ACL更新地址（**白名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl
@@ -76,12 +70,25 @@
 * 打开SSR->路由->自定义acl文件->输入下载地址->更新
 * 再次更新，点击软件页面底部的更新即可
 
+
+# Root手机推荐：
+* 1.自带去广告的VIA浏览器 http://www.coolapk.com/apk/mark.via
+* 2.HOSTS 广告快走中国版 http://www.coolapk.com/apk/mark.via
+* 3.HOSTS 广告快走开AdAway http://www.coolapk.com/apk/org.adaway
+* https://github.com/neko-dev/neohosts
+* Google Hosts 请移步 https://github.com/googlehosts/hosts
+
+
 # 注：
 * 参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
+
 * 浏览器内部广告太多了，单凭几百条规则可能过滤不过来。少许遗漏，请谅解
+
 * 有问题请发issue,说明状况和所用规则。
+
 * temp文件夹为历史存档 要找以前的版本可以下那个
-		
+	
+
 # License		
 [![](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
 * CC-BY-SA-4.0
