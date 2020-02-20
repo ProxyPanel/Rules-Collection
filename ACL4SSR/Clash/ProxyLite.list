@@ -2,13 +2,12 @@
 
 # 国外域名
 DOMAIN-SUFFIX,hk
-DOMAIN-SUFFIX,tw
-DOMAIN-SUFFIX,sg
 DOMAIN-SUFFIX,jp
 DOMAIN-SUFFIX,kr
+DOMAIN-SUFFIX,sg
+DOMAIN-SUFFIX,tw
 DOMAIN-SUFFIX,uk
 DOMAIN-SUFFIX,us
-DOMAIN-SUFFIX,tw
 
 # MyList && Other
 DOMAIN-SUFFIX,apkmirror.com
@@ -63,6 +62,7 @@ DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,4sqi.net
 DOMAIN-SUFFIX,a248.e.akamai.net
 DOMAIN-SUFFIX,adobedtm.com
+DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,aolcdn.com
 DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,app-measurement.com
