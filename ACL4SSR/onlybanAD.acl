@@ -1,6 +1,6 @@
 #**********************************************************************
-# 02.18
-# 2020年2月18日18:42:04
+# 02.23
+# 2020年2月23日18:22:39
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -59,7 +59,6 @@
 (^|\.)\w*tracking\w*\.\w*$
 (^|\.)\w*traffic\w*\.\w*$
 (^|\.)\w*uedas\w*\.\w*$
-(^|\.)\w*umeng\w*\.\w*$
 (^|\.)\w*usage\w*\.\w*$
 (^|\.)\w*wlmonitor\w*\.\w*$
 (^|\.)\w*zjtoolbar\w*\.\w*$
@@ -963,6 +962,7 @@
 (^|\.)fraudmetrix.cn
 (^|\.)fraudmetrix\.cn$
 (^|\.)gentags\.net$
+(^|\.)gepush\.com$
 (^|\.)getui\.com$
 (^|\.)glispa\.com$
 (^|\.)go-mpulse$
@@ -1131,7 +1131,6 @@
 (^|\.)ukeiae\.com$
 (^|\.)umeng\.co$
 (^|\.)umeng\.com$
-(^|\.)umengcloud\.com$
 (^|\.)umtrack\.com$
 (^|\.)unimhk\.com$
 (^|\.)union-wifi\.com$
@@ -1139,7 +1138,6 @@
 (^|\.)unionsy\.com$
 (^|\.)unlitui\.com$
 (^|\.)uri6\.com$
-(^|\.)userstyles\.org$
 (^|\.)ushaqi\.com$
 (^|\.)usingde\.com$
 (^|\.)uuzu\.com$
@@ -1514,6 +1512,23 @@
 [proxy_list]
 # 代理列表
 
+# MyList
+(^|\.)bit\.no\.com$
+(^|\.)btlibrary\.me$
+(^|\.)cccat\.io$
+(^|\.)cloudcone\.com$
+(^|\.)gameloft\.com$
+(^|\.)inoreader\.com$
+(^|\.)ip138\.com$
+(^|\.)ping\.pe$
+(^|\.)reddit\.com$
+(^|\.)teddysun\.com$
+(^|\.)tumbex\.com$
+(^|\.)twdvd\.com$
+(^|\.)unsplash\.com$
+(^|\.)xn--i2ru8q2qg\.com$
+(^|\.)yunpanjingling\.com$
+
 # 国外域名
 ^.*\.hk$
 ^.*\.jp$
@@ -1522,33 +1537,6 @@
 ^.*\.tw$
 ^.*\.uk$
 ^.*\.us$
-
-# MyList
-(^|\.)apkmirror\.com$
-(^|\.)bit\.no\.com$
-(^|\.)btlibrary\.me$
-(^|\.)cccat\.io$
-(^|\.)cloudcone\.com$
-(^|\.)cloudfront\.net$
-(^|\.)dmm\.co\.jp$
-(^|\.)doub\.io$
-(^|\.)gameloft\.com$
-(^|\.)githubusercontent\.com$
-(^|\.)gvt\w\.com$
-(^|\.)inoreader\.com$
-(^|\.)ip138\.com$
-(^|\.)microsoft\.com$
-(^|\.)ping\.pe$
-(^|\.)quora\.com$
-(^|\.)reddit\.com$
-(^|\.)s3\.amazonaws\.com$
-(^|\.)teddysun\.com$
-(^|\.)tumbex\.com$
-(^|\.)tvb\.com$
-(^|\.)twdvd\.com$
-(^|\.)unsplash\.com$
-(^|\.)xn--i2ru8q2qg\.com$
-(^|\.)yunpanjingling\.com$
 
 # 国外域名关键字
 (^|\.)\w*1e100\w*\.\w*$
@@ -1577,7 +1565,9 @@
 (^|\.)a248\.e\.akamai\.net$
 (^|\.)adobedtm\.com$
 (^|\.)ampproject\.org$
+(^|\.)android\.com$
 (^|\.)aolcdn\.com$
+(^|\.)apkmirror\.com$
 (^|\.)apkpure\.com$
 (^|\.)app-measurement\.com$
 (^|\.)appspot\.com$
@@ -1588,8 +1578,6 @@
 (^|\.)azureedge\.net$
 (^|\.)azurewebsites\.net$
 (^|\.)bandwagonhost\.com$
-(^|\.)bbc\.co$
-(^|\.)bbc\.com$
 (^|\.)bing\.com$
 (^|\.)bkrtx\.com$
 (^|\.)blogcdn\.com$
@@ -1603,9 +1591,9 @@
 (^|\.)box\.com$
 (^|\.)cachefly\.net$
 (^|\.)cdnst\.net$
+(^|\.)cloudfront\.net$
 (^|\.)comodoca\.com$
-(^|\.)content\.office\.net$
-(^|\.)d3c33hcgiwev3\.cloudfront\.net$
+(^|\.)daum\.net$
 (^|\.)demdex\.net$
 (^|\.)deskconnect\.com$
 (^|\.)disqus\.com$
@@ -1618,24 +1606,14 @@
 (^|\.)edgecastcdn\.net$
 (^|\.)edgekey\.net$
 (^|\.)edgesuite\.net$
-(^|\.)eu-west-1\.console\.aws\.amazon\.com$
 (^|\.)eurekavpt\.com$
-(^|\.)facebook\.com$
 (^|\.)fastmail\.com$
-(^|\.)fb\.com$
-(^|\.)fb\.me$
-(^|\.)fbcdn\.net$
-(^|\.)fbsbx\.com$
 (^|\.)firebaseio\.com$
 (^|\.)flickr\.com$
 (^|\.)flipboard\.com$
 (^|\.)gfx\.ms$
-(^|\.)gist\.github\.com$
 (^|\.)gongm\.in$
-(^|\.)gstatic\.cn$
-(^|\.)gstatic\.com$
-(^|\.)gvt0\.com$
-(^|\.)gvt1\.com$
+(^|\.)hulu\.com$
 (^|\.)id\.heroku\.com$
 (^|\.)io\.io$
 (^|\.)issuu\.com$
@@ -1658,16 +1636,16 @@
 (^|\.)nintendo\.net$
 (^|\.)nsstatic\.net$
 (^|\.)nytstyle\.com$
-(^|\.)onedrive\.live\.com$
 (^|\.)openvpn\.net$
 (^|\.)periscope\.tv$
 (^|\.)pinimg\.com$
 (^|\.)pinterest\.com$
 (^|\.)pixiv\.net$
+(^|\.)potato\.im$
 (^|\.)prfct\.co$
+(^|\.)pscp\.tv$
+(^|\.)quora\.com$
 (^|\.)resilio\.com$
-(^|\.)s3-ap-northeast-1\.amazonaws\.com$
-(^|\.)s3-ap-southeast-2\.amazonaws\.com$
 (^|\.)sfx\.ms$
 (^|\.)shadowsocks\.org$
 (^|\.)slack-edge\.com$
@@ -1679,9 +1657,6 @@
 (^|\.)symauth\.com$
 (^|\.)symcb\.com$
 (^|\.)symcd\.com$
-(^|\.)t\.me$
-(^|\.)telegram\.me$
-(^|\.)telegram\.org$
 (^|\.)textnow\.com$
 (^|\.)thefacebook\.com$
 (^|\.)thepiratebay\.org$
@@ -1689,31 +1664,33 @@
 (^|\.)trustasiassl\.com$
 (^|\.)tumblr\.co$
 (^|\.)tumblr\.com$
-(^|\.)twimg\.co$
-(^|\.)twimg\.com$
-(^|\.)twimg\.org$
+(^|\.)tvb\.com$
 (^|\.)txmblr\.com$
 (^|\.)vimeo\.com$
 (^|\.)vine\.co$
 (^|\.)vox-cdn\.com$
 (^|\.)wikileaks\.org$
-(^|\.)www\.youtube-nocookie\.com$
-(^|\.)youtu\.be$
-(^|\.)youtube\.com$
-(^|\.)ytimg\.com$
 (^|\.)wikipedia\.org$
-(^|\.)wikimedia\.org$
 
-# Other
-(^|\.)doub\.io$
-(^|\.)gameloft\.com$
-(^|\.)quora\.com$
-(^|\.)reddit\.com$
-(^|\.)teddysun\.com$
-(^|\.)unsplash\.com$
-
-# APKPURE
-(^|\.)apkpure\.com$
+# Amazon
+(^|\.)amazon\.co\.jp$
+(^|\.)amazon\.com$
+(^|\.)amazonaws\.com$
+13.32.0.0/15
+13.35.0.0/17
+18.184.0.0/15
+18.194.0.0/15
+18.208.0.0/13
+18.232.0.0/14
+52.58.0.0/15
+52.74.0.0/16
+52.77.0.0/16
+52.84.0.0/15
+52.200.0.0/13
+54.93.0.0/16
+54.156.0.0/14
+54.226.0.0/15
+54.230.156.0/22
 
 # BBC
 (^|\.)\w*uk-live\w*\.\w*$
@@ -1721,25 +1698,66 @@
 (^|\.)bbc\.com$
 
 # Discord
+(^|\.)discord\.gg$
+(^|\.)discord\.media$
 (^|\.)discordapp\.com$
 (^|\.)discordapp\.net$
 
+# Facebook
+(^|\.)facebook\.com$
+(^|\.)fb\.com$
+(^|\.)fb\.me$
+(^|\.)fbcdn\.com$
+(^|\.)fbcdn\.net$
+31.13.24.0/21
+31.13.64.0/18
+45.64.40.0/22
+66.220.144.0/20
+69.63.176.0/20
+69.171.224.0/19
+74.119.76.0/22
+103.4.96.0/22
+129.134.0.0/17
+157.240.0.0/17
+173.252.64.0/18
+179.60.192.0/22
+185.60.216.0/22
+204.15.20.0/22
+
+# Github
+(^|\.)github\.com$
+(^|\.)github\.io$
+(^|\.)githubapp\.com$
+(^|\.)githubassets\.com$
+(^|\.)githubusercontent\.com$
+(^|\.)s3\.amazonaws\.com$
+
 # Google
+(^|\.)1e100\.net$
+(^|\.)2mdn\.net$
+(^|\.)app-measurement\.net$
+(^|\.)ggpht\.com$
 (^|\.)googleapis\.cn$
 (^|\.)googleapis\.com$
-(^|\.)1e100\.net
-(^|\.)app-measurement\.net
-
-# Hulu
-(^|\.)hulu\.com$
+(^|\.)gstatic\.cn$
+(^|\.)gstatic\.com$
+(^|\.)g\.co$
+(^|\.)goo\.gl$
+(^|\.)gvt0\.com$
+(^|\.)gvt1\.com$
+(^|\.)xn--ngstr-lra8j\.com$
+(^|\.)youtu\.be$
+(^|\.)youtube-nocookie\.com$
+(^|\.)youtube\.com$
+(^|\.)ytimg\.com$
+74.125.0.0/16
+173.194.0.0/16
 
 # Instagram
-(^|\.)\w*instagram\w*\.\w*$
 (^|\.)cdninstagram\.com$
 (^|\.)instagram\.com$
 (^|\.)instagr\.am$
 (^|\.)akamaihd\.net$
-(^|\.)d36xtkk24g8jdx\.cloudfront\.net$
 
 # Kakao Talk
 (^|\.)kakao\.com$
@@ -1747,8 +1765,8 @@
 (^|\.)kakaocdn\.net$
 1.201.0.0/24
 27.0.236.0/22
-103.246.56.0/22
 103.27.148.0/22
+103.246.56.0/22
 110.76.140.0/22
 113.61.104.0/22
 
@@ -1774,7 +1792,7 @@
 203.174.66.64/26
 203.174.77.0/24
 
-# Microsoft Onenote 
+# Microsoft
 (^|\.)1drv\.com$
 (^|\.)aadrm\.com$
 (^|\.)acompli\.com$
@@ -1887,14 +1905,7 @@
 207.45.72.0/22
 208.75.76.0/24
 
-# Potato Chat
-(^|\.)potato\.im$
-13.251.24.157/24
-13.251.41.203/24
-17.252.156.147/24
-17.252.157.26/24
-
-#ResiloSync
+# ResiloSync
 (^|\.)config\.getsync\.com$
 (^|\.)config\.resilio\.com$
 54.235.182.157/32
@@ -1911,9 +1922,17 @@
 (^|\.)steamstatic\.com$
 
 # Telegram
+(^|\.)t\.me$
+(^|\.)tdesktop\.com$
+(^|\.)telegra\.ph$
+(^|\.)telegram\.me$
+(^|\.)telegram\.org$
 91.108.0.0/16
 109.239.140.0/24
 149.154.160.0/20
+2001:67c:4e8::/48
+2001:b28:f23d::/48
+2001:b28:f23f::/48
 
 # Twitch
 (^|\.)twitch\.tv$
@@ -1921,9 +1940,13 @@
 (^|\.)jtvnw\.net$
 (^|\.)akamaized\.net$
 
+# Twitter
+(^|\.)t\.co$
+(^|\.)twimg\.co$
+(^|\.)twimg\.com$
+(^|\.)twimg\.org$
+
 # Whatsapp
-(^|\.)whatsapp\.com$
-(^|\.)whatsapp\.net$
 18.194.0.0/15
 34.224.0.0/12
 54.242.0.0/15
@@ -1944,3 +1967,6 @@
 (^|\.)neulion\.com$
 (^|\.)icntv\.xyz$
 (^|\.)flzbcdn\.xyz$
+
+#华文电视
+(^|\.)ocnttv\.com$

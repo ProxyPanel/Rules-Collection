@@ -1,12 +1,8 @@
 #**********************************************************************
-# 02.18
-# 2020年2月18日18:42:04
+# 02.23
+# 2020年2月23日18:22:39
 # 转载需要注明版权和来源
-#
-# 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
-#
-# 参照lhie1的surge规则改编，致谢!! https://github.com/lhie1/Surge
-# 参照scomper的surge规则改编，致谢!! https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
+# 全部规则来自GFWList 没有白名单
 #
 # 更新记录 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/more/New.md
 # 下载地址 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
@@ -15,9 +11,9 @@
 
 [bypass_all]
 ### 默认直连 自己可以自定义
-### [outbound_block_list] 禁止访问列表 在26行
-### [bypass_list] 直连列表 禁止访问列表 在723多行
-### [proxy_list] 代理列表 在1205多行
+### [outbound_block_list] 禁止访问列表
+### [bypass_list] 直连列表 禁止访问列表
+### [proxy_list] 代理列表
 
 #**********************************************************************
 [outbound_block_list]
@@ -55,7 +51,6 @@
 (^|\.)\w*tracking\w*\.\w*$
 (^|\.)\w*traffic\w*\.\w*$
 (^|\.)\w*uedas\w*\.\w*$
-(^|\.)\w*umeng\w*\.\w*$
 (^|\.)\w*usage\w*\.\w*$
 (^|\.)\w*wlmonitor\w*\.\w*$
 (^|\.)\w*zjtoolbar\w*\.\w*$
@@ -959,6 +954,7 @@
 (^|\.)fraudmetrix.cn
 (^|\.)fraudmetrix\.cn$
 (^|\.)gentags\.net$
+(^|\.)gepush\.com$
 (^|\.)getui\.com$
 (^|\.)glispa\.com$
 (^|\.)go-mpulse$
@@ -1127,7 +1123,6 @@
 (^|\.)ukeiae\.com$
 (^|\.)umeng\.co$
 (^|\.)umeng\.com$
-(^|\.)umengcloud\.com$
 (^|\.)umtrack\.com$
 (^|\.)unimhk\.com$
 (^|\.)union-wifi\.com$
@@ -1135,7 +1130,6 @@
 (^|\.)unionsy\.com$
 (^|\.)unlitui\.com$
 (^|\.)uri6\.com$
-(^|\.)userstyles\.org$
 (^|\.)ushaqi\.com$
 (^|\.)usingde\.com$
 (^|\.)uuzu\.com$
@@ -1546,26 +1540,17 @@
 [proxy_list]
 
 # MyList
-(^|\.)apkmirror\.com$
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
 (^|\.)cccat\.io$
 (^|\.)cloudcone\.com$
-(^|\.)cloudfront\.net$
-(^|\.)dmm\.co\.jp$
-(^|\.)doub\.io$
 (^|\.)gameloft\.com$
-(^|\.)gvt\w\.com$
 (^|\.)inoreader\.com$
 (^|\.)ip138\.com$
-(^|\.)microsoft\.com$
 (^|\.)ping\.pe$
-(^|\.)quora\.com$
 (^|\.)reddit\.com$
-(^|\.)s3\.amazonaws\.com$
 (^|\.)teddysun\.com$
 (^|\.)tumbex\.com$
-(^|\.)tvb\.com$
 (^|\.)twdvd\.com$
 (^|\.)unsplash\.com$
 (^|\.)xn--i2ru8q2qg\.com$
@@ -1576,10 +1561,44 @@
 (^|\.)ec2-54-175-2-194\.computer-1\.amazonaws\.com$
 (^|\.)ec2-54-210-54-246\.computer-1\.amazonaws\.com$
 
+# 国外域名
+^.*\.hk$
+^.*\.jp$
+^.*\.kr$
+^.*\.sg$
+^.*\.tw$
+^.*\.uk$
+^.*\.us$
+
+# 国外域名关键字
+(^|\.)\w*1e100\w*\.\w*$
+(^|\.)\w*abema\w*\.\w*$
+(^|\.)\w*appledaily\w*\.\w*$
+(^|\.)\w*avtb\w*\.\w*$
+(^|\.)\w*beetalk\w*\.\w*$
+(^|\.)\w*blogspot\w*\.\w*$
+(^|\.)\w*dropbox\w*\.\w*$
+(^|\.)\w*facebook\w*\.\w*$
+(^|\.)\w*fbcdn\w*\.\w*$
+(^|\.)\w*github\w*\.\w*$
+(^|\.)\w*gmail\w*\.\w*$
+(^|\.)\w*google\w*\.\w*$
+(^|\.)\w*instagram\w*\.\w*$
+(^|\.)\w*porn\w*\.\w*$
+(^|\.)\w*sci-hub\w*\.\w*$
+(^|\.)\w*spotify\w*\.\w*$
+(^|\.)\w*telegram\w*\.\w*$
+(^|\.)\w*twitter\w*\.\w*$
+(^|\.)\w*whatsapp\w*\.\w*$
+(^|\.)\w*youtube\w*\.\w*$
+
+# Google DNS
+8.8.8.8
+8.8.4.4
+
 #GFWList IP start
-85.17.73.31
-174.142.105.153
-199.59.148.20
+14.102.250.18
+14.102.250.19
 38.103.165.50
 50.7.31.230
 67.220.91.15
@@ -1587,55 +1606,42 @@
 67.220.91.23
 69.65.19.160
 72.52.81.22
-14.102.250.18
-14.102.250.19
+85.17.73.31
+174.142.105.153
+199.59.148.20
 #GFWList IP end
-61.230.0.128
-95.211.214.34
-94.100.18.172
-116.48.111.236
-94.100.22.212
-83.149.70.38
-46.166.148.135
-168.70.106.171
-118.34.169.15
-42.98.107.223
-39.119.179.177
-119.77.178.211
-112.119.29.49
-45.76.49.238
-45.32.39.1
-14.198.143.94
-112.119.90.171
-116.48.111.236
-112.168.224.141
-218.161.37.206
-14.8.71.128
-114.199.145.219
 1.238.223.154
-203.222.24.93
-59.126.95.195
-42.98.107.223
-140.112.53.243
-124.168.108.15
+14.8.71.128
+14.198.143.94
 36.225.167.32
 36.234.188.130
+39.119.179.177
+42.98.107.223
+42.98.107.223
+45.32.39.1
+45.76.49.238
+46.166.148.135
+59.126.95.195
+61.230.0.128
+83.149.70.38
+94.100.18.172
+94.100.22.212
+95.211.214.34
+112.119.29.49
+112.119.90.171
+112.168.224.141
 114.199.145.219
+114.199.145.219
+116.48.111.236
+116.48.111.236
+118.34.169.15
+119.77.178.211
+124.168.108.15
+140.112.53.243
+168.70.106.171
+203.222.24.93
+218.161.37.206
 220.132.16.173
-
-# 国外域名关键字
-(^|\.)\w*1e100\w*\.\w*$
-(^|\.)\w*appledaily\w*\.\w*$
-(^|\.)\w*blogspot\w*\.\w*$
-(^|\.)\w*dropbox\w*\.\w*$
-(^|\.)\w*facebook\w*\.\w*$
-(^|\.)\w*fbcdn\w*\.\w*$
-(^|\.)\w*gmail\w*\.\w*$
-(^|\.)\w*google\w*\.\w*$
-(^|\.)\w*spotify\w*\.\w*$
-(^|\.)\w*telegram\w*\.\w*$
-(^|\.)\w*twitter\w*\.\w*$
-(^|\.)\w*whatsapp\w*\.\w*$
 
 #GFWList
 (^|\.)(.*)2\.bahamut\.com\.tw$
@@ -3620,7 +3626,7 @@
 (^|\.)goodtv\.tv$
 (^|\.)goofind\.com$
 (^|\.)goo\.gl$
-(^|\.)# Google TLDs$
+# Google TLDs$
 (^|\.)google\.ad$
 (^|\.)google\.ae$
 (^|\.)google\.al$
@@ -3814,7 +3820,7 @@
 (^|\.)google\.vg$
 (^|\.)google\.vu$
 (^|\.)google\.ws$
-(^|\.)# Google TLDs end$
+# Google TLDs end$
 (^|\.)googleapis\.cn$
 (^|\.)googleapis\.com$
 (^|\.)googleapps\.com$
@@ -7343,16 +7349,25 @@
 (^|\.)zzcloud\.me$
 (^|\.)zzux\.com$
 
-# Other
-(^|\.)doub\.io$
-(^|\.)gameloft\.com$
-(^|\.)quora\.com$
-(^|\.)reddit\.com$
-(^|\.)teddysun\.com$
-(^|\.)unsplash\.com$
-
-# APKPURE
-(^|\.)apkpure\.com$
+# Amazon
+(^|\.)amazon\.co\.jp$
+(^|\.)amazon\.com$
+(^|\.)amazonaws\.com$
+13.32.0.0/15
+13.35.0.0/17
+18.184.0.0/15
+18.194.0.0/15
+18.208.0.0/13
+18.232.0.0/14
+52.58.0.0/15
+52.74.0.0/16
+52.77.0.0/16
+52.84.0.0/15
+52.200.0.0/13
+54.93.0.0/16
+54.156.0.0/14
+54.226.0.0/15
+54.230.156.0/22
 
 # BBC
 (^|\.)\w*uk-live\w*\.\w*$
@@ -7360,25 +7375,66 @@
 (^|\.)bbc\.com$
 
 # Discord
+(^|\.)discord\.gg$
+(^|\.)discord\.media$
 (^|\.)discordapp\.com$
 (^|\.)discordapp\.net$
 
+# Facebook
+(^|\.)facebook\.com$
+(^|\.)fb\.com$
+(^|\.)fb\.me$
+(^|\.)fbcdn\.com$
+(^|\.)fbcdn\.net$
+31.13.24.0/21
+31.13.64.0/18
+45.64.40.0/22
+66.220.144.0/20
+69.63.176.0/20
+69.171.224.0/19
+74.119.76.0/22
+103.4.96.0/22
+129.134.0.0/17
+157.240.0.0/17
+173.252.64.0/18
+179.60.192.0/22
+185.60.216.0/22
+204.15.20.0/22
+
+# Github
+(^|\.)github\.com$
+(^|\.)github\.io$
+(^|\.)githubapp\.com$
+(^|\.)githubassets\.com$
+(^|\.)githubusercontent\.com$
+(^|\.)s3\.amazonaws\.com$
+
 # Google
+(^|\.)1e100\.net$
+(^|\.)2mdn\.net$
+(^|\.)app-measurement\.net$
+(^|\.)ggpht\.com$
 (^|\.)googleapis\.cn$
 (^|\.)googleapis\.com$
-(^|\.)1e100\.net
-(^|\.)app-measurement\.net
-
-# Hulu
-(^|\.)hulu\.com$
+(^|\.)gstatic\.cn$
+(^|\.)gstatic\.com$
+(^|\.)g\.co$
+(^|\.)goo\.gl$
+(^|\.)gvt0\.com$
+(^|\.)gvt1\.com$
+(^|\.)xn--ngstr-lra8j\.com$
+(^|\.)youtu\.be$
+(^|\.)youtube-nocookie\.com$
+(^|\.)youtube\.com$
+(^|\.)ytimg\.com$
+74.125.0.0/16
+173.194.0.0/16
 
 # Instagram
-(^|\.)\w*instagram\w*\.\w*$
 (^|\.)cdninstagram\.com$
 (^|\.)instagram\.com$
 (^|\.)instagr\.am$
 (^|\.)akamaihd\.net$
-(^|\.)d36xtkk24g8jdx\.cloudfront\.net$
 
 # Kakao Talk
 (^|\.)kakao\.com$
@@ -7386,8 +7442,8 @@
 (^|\.)kakaocdn\.net$
 1.201.0.0/24
 27.0.236.0/22
-103.246.56.0/22
 103.27.148.0/22
+103.246.56.0/22
 110.76.140.0/22
 113.61.104.0/22
 
@@ -7413,8 +7469,7 @@
 203.174.66.64/26
 203.174.77.0/24
 
-
-# Microsoft Onenote 
+# Microsoft
 (^|\.)1drv\.com$
 (^|\.)aadrm\.com$
 (^|\.)acompli\.com$
@@ -7527,14 +7582,7 @@
 207.45.72.0/22
 208.75.76.0/24
 
-# Potato Chat
-(^|\.)potato\.im$
-13.251.24.157/24
-13.251.41.203/24
-17.252.156.147/24
-17.252.157.26/24
-
-#ResiloSync
+# ResiloSync
 (^|\.)config\.getsync\.com$
 (^|\.)config\.resilio\.com$
 54.235.182.157/32
@@ -7551,9 +7599,17 @@
 (^|\.)steamstatic\.com$
 
 # Telegram
+(^|\.)t\.me$
+(^|\.)tdesktop\.com$
+(^|\.)telegra\.ph$
+(^|\.)telegram\.me$
+(^|\.)telegram\.org$
 91.108.0.0/16
 109.239.140.0/24
 149.154.160.0/20
+2001:67c:4e8::/48
+2001:b28:f23d::/48
+2001:b28:f23f::/48
 
 # Twitch
 (^|\.)twitch\.tv$
@@ -7561,9 +7617,13 @@
 (^|\.)jtvnw\.net$
 (^|\.)akamaized\.net$
 
+# Twitter
+(^|\.)t\.co$
+(^|\.)twimg\.co$
+(^|\.)twimg\.com$
+(^|\.)twimg\.org$
+
 # Whatsapp
-(^|\.)whatsapp\.com$
-(^|\.)whatsapp\.net$
 18.194.0.0/15
 34.224.0.0/12
 54.242.0.0/15
