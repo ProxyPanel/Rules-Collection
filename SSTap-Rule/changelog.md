@@ -2,6 +2,25 @@
 
 # 更新日志
 
+### 2020年8月14日
+By @ClarkeCheng
+
+新增`Halo-The-Master-Chief-Collection,光环：士官长合集` 游戏规则
+
+### 2020年3月19日
+
+By @normanbb
+
+更新`Escape from Tarkov,逃离塔克夫` 游戏规则
+
+更新`Maplestory-us,冒险岛美服` 游戏规则
+
+新增`Call-Of-Duty16-Modern-Warfare,使命召唤16：现代战争` 游戏规则
+
+更新`Borderlands3-asia,无主之地3` 游戏规则
+
+删除无效规则
+
 ### 2020年1月6日
 
 By @normanbb

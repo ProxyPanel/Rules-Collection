@@ -1,6 +1,6 @@
 #**********************************************************************
-# 10.24
-# 2017年10月24日 18:46:03
+# 05.31
+# 2020年5月31日19:33:55
 # 适用于SSR C#客户端
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
 #
@@ -5409,8 +5409,6 @@
 .adash-c.ut.taobao.com reject
 .adashxgc.ut.taobao.com reject
 .alipaylog.com reject
-.amdc.alipay.com reject
-.click.mz.simba.taobao.com reject
 .g.click.taobao.com reject
 .g.tbcdn.cn reject
 .hydra.alibaba.com reject
@@ -5459,10 +5457,8 @@
 .rp.baidu.com reject
 .spcode.baidu.com reject
 .tk.baidu.com reject
-.tongji.baidu.com reject
 .tuisong.baidu.com reject
 .ucstat.baidu.com reject
-.ufosdk.baidu.com reject
 .union.baidu.com reject
 .utility.baidu.com reject
 .utk.baidu.com reject
@@ -5564,7 +5560,6 @@
 # Kugou
 .d.kugou.com reject
 .downmobile.kugou.com reject
-.fanxing.kugou.com reject
 .gad.kugou.com reject
 .game.kugou.com reject
 .gg.kugou.com reject
@@ -5683,7 +5678,6 @@
 .adsfile.qq.com reject
 .bugly.qq.com reject
 .buluo.qq.com reject
-.beacon.qq.com reject
 .e.qq.com reject
 .gdt.qq.com reject
 .monitor.qq.com reject
@@ -5827,7 +5821,6 @@
 .adm.zookingsoft.com reject
 .bole.shangshufang.ksosoft.com reject
 .counter.kingsoft.com reject
-.dl.op.wpscdn.cn reject
 .hoplink.ksosoft.com reject
 .ic.ksosoft.com reject
 .img.gou.wpscdn.cn reject
@@ -5985,31 +5978,19 @@
 .stat.pptv.com reject
 
 # QQ Live
-.aiseet.aa.atianqi.com reject
-.aiseet.atianqi.com reject
 .c.l.qq.com reject
 .dp3.qq.com reject
-.livep.l.aiseet.atianqi.com reject
 .livep.l.qq.com reject
-.lives.l.aiseet.atianqi.com reject
 .lives.l.qq.com reject
 .livew.l.qq.com reject
 .mcgi.v.qq.com reject
 .mdevstat.qqlive.qq.com reject
-.monitor-uu.play.aiseet.atianqi.com reject
-.news-l.play.aiseet.atianqi.com reject
 .news.l.qq.com reject
 .omgmta1.qq.com reject
-.otheve.play.aiseet.atianqi.com reject
-.othstr.play.aiseet.atianqi.com reject
-.p-l.play.aiseet.atianqi.com reject
 .p.l.qq.com reject
-.sdkconfig.play.aiseet.atianqi.com reject
-.t-l.play.aiseet.atianqi.com reject
 .t.l.qq.com reject
 .u.l.qq.com reject
 .vmindhls.tc.qq.com reject
-.vv.play.aiseet.atianqi.com reject
 
 # Youku & Tudou
 .actives.youku.com reject
@@ -6180,7 +6161,6 @@
 .advert.api.thejoyrun.com reject
 .api-deal.kechenggezi.com reject
 .api-z.weidian.com reject
-.bam.nr-data.net reject
 .mobileads.msn.com reject
 .bat.bing.com reject
 .beacon.tingyun.com reject
@@ -6188,7 +6168,6 @@
 .collector.githubapp.com reject
 .de.soquair.com reject
 .e.nexac.com reject
-.erebor.douban.com reject
 .exp.17wo.cn reject
 .game.51yund.com reject
 .hosting.miarroba.info reject

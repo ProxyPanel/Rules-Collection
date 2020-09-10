@@ -1,5 +1,21 @@
 ## 最完善的 iOS 翻墙规则
 
+### 停止更新公告
+
+维护该项目已花费了我过多的时间，而生活中值得花费时间的东西太多，所以从即日起停止更新该项目。
+
+**停止更新并不意味着不好用了，相反，该规则已经非常完善。** 同时该规则仍旧会定期从上游（GFWList、EasyList 等）获取更新，并自动构建新版发布。但手动编写的部分我不会去更新，亦不会推出新版规则。
+
+欢迎大家通过 PR 或 Fork 为此项目做出贡献，对于做出了重大贡献的开源工作者，我很乐意在这里留下你的链接。
+
+**愿景**
+
+1. 针对规则不完善之处，用少量手工编写的规则完善。
+2. 彻底完善：目前白名单系列规则自动爬取并分类了 top500 网站中能直连的一级域名，但事实上分类效果不好，因为存在主域名能直连，但二级域名被墙的情况。所以如果能对全网 top1000 的二级域名进行黑白名单分类，将彻底解决目前规则中所有不完善的情况。
+3. 构建全平台规则：该项目使用脚本自动维护和构建规则，所以除 Shadowrocket 外，PAC、AutoProxy、Surge、Quan、V2Ray 规则都可以很简单地同时实现自动化构建，打造全平台规则中心。
+
+------------------------------------------------------
+
 这里是一系列好用的翻墙规则，针对 [Shadowrocket](https://liguangming.com/Shadowrocket) 开发，支持广告过滤，使用 Python 按照一定的规则和模板定期自动生成，并且使用开源的力量，集众人之力逐渐完善。
 
 **正在使用手机浏览本页面的用户 [请点击这里](https://github.com/h2y/Shadowrocket-ADBlock-Rules/blob/master/readme.md)，查看完整的说明文档。**
@@ -12,9 +28,10 @@
 - 提供多个规则文件让大家自由选择或者自由切换使用。
 - 专门针对 ShadowRocket 开发，可以保证与 SR 的兼容性。
 
+
 ## 规则列表
 
-![规则选择指南](https://github.com/h2y/Shadowrocket-ADBlock-Rules/raw/master/figure/guide.png)
+![规则选择指南](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/guide.png)
 
 规则 | 规定代理的网站 | 规定直连的网站 
 --- | ----------- | ------------- 
@@ -38,6 +55,41 @@
 
 最好让 ShadowRocket 断开并重新连接一次，以确保新的规则文件生效。 
 
+
+## 请保护好自己
+
+谷歌中英文的搜索体验都优于百度，而刷美剧、ins 追星、去推特看看特朗普也都挺有意思。但是，随着看到的人和事越多，我越发想要在这里说一些话，告诫路过的各位：
+
+**请务必保护好自己** 我们自认为打破了信息的壁垒，其实打破的是保护我们的屏障。因为外网真的存在很多误导性言论，来自各个利益集团对中国网民疯狂洗脑，他们往往还喜欢以平等自由等旗号自称，但仔细想想真的是这样吗？我只知道美国是最善于运用舆论的国家，会结合大数据潜移默化地改变你的观念。如果大家在上网过程中不经意看到了某些观点，务必保留自己独立思考的能力，如果你是一个容易被带偏的人，则建议回到屏障之中。
+
+本规则只提供给大家用于更便捷地学习和工作。如果你是对上述观点持反对意见的极端政治人士，或者已被洗脑，请立即离开，本项目不对你开放。
+
+
+## 一些推荐的网站
+
+[**功夫翻墙网**](https://cutt.ly/tizi)	:lollipop:
+
+我最终选择的节点提供商。稳定、价格适中。节点遍布全球，其中香港节点的速度令人满意。
+
+欢迎大家通过我的邀请链接前去使用。
+
+**[IP111](http://ip111.cn/)**
+
+这是一个很棒的 IP 查询网站，支持同时查询你的境内境外 IP，以及谷歌 IP。
+
+**[wikiHow](https://zh.wikihow.com/)**
+
+如何帮助心碎的朋友？如何给吊扇加油？你想知道的一切都可以在这里找到答案，最关键是采用漫画的方式挺有意思。
+
+**[Google Photos](https://www.google.com/photos/about/)**
+
+谷歌云相册提供无限空间保存手机中的日常照片，并且会对照片智能分类，体验很好。
+
+**<https://hzy.pw/>**
+
+我是一名大学生，沉迷技术无法自拔。这是我的个人博客，会分享一些有趣的东西和自己的观点，欢迎来逛逛~
+
+
 ## 常见问题
 
 - **上千行的代理规则，会对上网速度产生影响吗？**
@@ -60,32 +112,6 @@
 - **广告过滤不完全？**
 
 > 该规则并不保证 100% 过滤所有的广告，尤其是视频广告，与网页广告不同的是，优酷等 App 每次升级都有可能更换一次广告策略，因此难以保证其广告屏蔽的实时有效性。
-
-
-## 相关推荐
-
-[** 功夫翻墙网 **](https://cutt.ly/tizi)	
-
-我所选择的节点提供商。稳定、速度快、价格适中。节点遍布全球，可使用 Netflix，亦提供翻墙回国节点。
-
-欢迎大家通过我的邀请链接前去使用。
-
-
-[**AppleDNS**](https://github.com/gongjianhui/AppleDNS)
-
-Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 DNS 最优解析结果，可以轻微加快访问速度。
-
-电脑需安装 Python，按照 Readme 运行后，将生成的 hosts 粘贴到 `Shadowrocket->Settings->DNS->Hosts` 即可。
-
-**<http://ip111.cn/>**
-
-这是一个很棒的 IP 查询网站，支持同时查询你的境内境外 IP，以及谷歌 IP。
-
-**<https://hzy.pw/>**
-
-我是一名大学生，沉迷技术无法自拔。这是我的个人博客，欢迎来逛逛。
-
-PS：广告位欢迎与我联系~
 
 
 ## 问题反馈
@@ -118,9 +144,9 @@ PS：广告位欢迎与我联系~
 - 直连：正常的网站
 - 包含广告过滤
 
-规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist_ad.conf>
+规则地址：<https://git.io/JfIXs>
 
-![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_top500_banlist_ad.png)
+![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_top500_banlist_ad.png?1)
 
 ## 白名单过滤 + 广告
 
@@ -130,9 +156,9 @@ PS：广告位欢迎与我联系~
 - 代理：默认代理其余的所有境外网站
 - 包含广告过滤
 
-规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_whitelist_ad.conf>
+规则地址：<https://git.io/JfIXo>
 
-![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_top500_whitelist_ad.png)
+![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_top500_whitelist_ad.png?1)
 
 
 ## 黑名单过滤
@@ -143,9 +169,9 @@ PS：广告位欢迎与我联系~
 - 直连：正常的网站
 - 不包含广告过滤
 
-规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist.conf>
+规则地址：<https://git.io/JfIXS>
 
-![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_top500_banlist.png)
+![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_top500_banlist.png?1)
 
 
 ## 白名单过滤
@@ -156,27 +182,27 @@ PS：广告位欢迎与我联系~
 - 代理：默认代理其余的所有境外网站
 - 不包含广告过滤
 
-规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_whitelist.conf>
+规则地址：<https://git.io/JfIXh>
 
-![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_top500_whitelist.png)
+![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_top500_whitelist.png?1)
 
 
 ## 国内外划分 + 广告
 
 国内外划分，对中国网站直连，外国网站代理。包含广告过滤。国外网站总是走代理，对于某些港澳台网站，速度反而会比直连更快。
 
-规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_cnip_ad.conf>
+规则地址：<https://git.io/JfI1k>
 
-![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_cnip_ad.png)
+![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_cnip_ad.png?1)
 
 
 ## 国内外划分
 
 国内外划分，对中国网站直连，外国网站代理。不包含广告过滤。国外网站总是走代理，对于某些港澳台网站，速度反而会比直连更快。
 
-规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_cnip.conf>
+规则地址：<https://git.io/JfI1q>
 
-![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_cnip.png)
+![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_cnip.png?1)
 
 
 ## 直连去广告
@@ -186,9 +212,9 @@ PS：广告位欢迎与我联系~
 - 直连：所有请求
 - 包含广告过滤
 
-规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_direct_banad.conf>
+规则地址：<https://git.io/JfI1m>
 
-![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_direct_banad.png)
+![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_direct_banad.png?1)
 
 
 ## 代理去广告
@@ -199,9 +225,9 @@ PS：广告位欢迎与我联系~
 - 代理：其余所有请求
 - 包含广告过滤
 
-规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_proxy_banad.conf>
+规则地址：<https://git.io/JfI13>
 
-![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_proxy_banad.png)
+![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_proxy_banad.png?1)
 
 
 ## 回国规则
@@ -212,9 +238,9 @@ PS：广告位欢迎与我联系~
 - 代理：中国网站
 - 不包含广告过滤
 
-规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_backcn.conf>
+规则地址：<https://git.io/JfI1s>
 
-![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_backcn.png)
+![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_backcn.png?1)
 
 
 ## 回国规则 + 广告
@@ -225,6 +251,6 @@ PS：广告位欢迎与我联系~
 - 代理：中国网站
 - 包含广告过滤
 
-规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_backcn_ad.conf>
+规则地址：<https://git.io/JfI1Z>
 
-![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_backcn_ad.png)
+![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_backcn_ad.png?1)

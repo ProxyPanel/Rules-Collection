@@ -1,6 +1,6 @@
 #**********************************************************************
-# 02.26
-# 2020年2月26日19:33:11
+# 08.16
+# 2020年8月16日23:51:50
 # 转载需要注明版权和来源
 # 全部规则来自GFWList 没有白名单
 #
@@ -29,6 +29,7 @@
 (^|\.)ping\.pe$
 (^|\.)reddit\.com$
 (^|\.)teddysun\.com$
+(^|\.)textnow\.com$
 (^|\.)tumbex\.com$
 (^|\.)twdvd\.com$
 (^|\.)unsplash\.com$
@@ -41,6 +42,7 @@
 (^|\.)ec2-54-210-54-246\.computer-1\.amazonaws\.com$
 
 # 国外域名
+^.*\.eu$
 ^.*\.hk$
 ^.*\.jp$
 ^.*\.kr$
@@ -123,7 +125,6 @@
 220.132.16.173
 
 #GFWList
-(^|\.)(.*)2\.bahamut\.com\.tw$
 (^|\.)030buy\.com$
 (^|\.)0rz\.tw$
 (^|\.)1000giri\.net$
@@ -2530,7 +2531,6 @@
 (^|\.)hkgreenradio\.org$
 (^|\.)hk\.hao123img\.com$
 (^|\.)hkheadline\.com$
-(^|\.)hkheadline\.comblog$
 (^|\.)hkhkhk\.com$
 (^|\.)hkhrc\.org\.hk$
 (^|\.)hkhrm\.org\.hk$
@@ -3388,7 +3388,6 @@
 (^|\.)msha\.gov$
 (^|\.)m\.slandr\.net$
 (^|\.)mswe1\.org$
-(^|\.)m-team\.cc$
 (^|\.)mthruf\.com$
 (^|\.)mtw\.tl$
 (^|\.)muchosucko\.com$
@@ -5854,6 +5853,8 @@
 (^|\.)bbc\.com$
 
 # Discord
+(^|\.)discord\.co$
+(^|\.)discord\.com$
 (^|\.)discord\.gg$
 (^|\.)discord\.media$
 (^|\.)discordapp\.com$
@@ -5937,19 +5938,14 @@
 (^|\.)line\.me$
 (^|\.)line\.naver\.jp$
 (^|\.)nhncorp\.jp$
-103.2.28.0/22
-119.235.224.0/21
-119.235.232.0/23
+103.2.28.0/24
+103.2.30.0/23
+119.235.224.0/24
+119.235.232.0/24
 119.235.235.0/24
 119.235.236.0/23
-125.6.146.0/24
-125.6.149.0/24
-125.6.190.0/24
-125.209.208.0/20
-203.104.103.0/24
-203.104.128.0/20
-203.174.66.64/26
-203.174.77.0/24
+147.92.128.0/17
+203.104.128.0/19
 
 # Microsoft
 (^|\.)1drv\.com$
@@ -6037,24 +6033,39 @@
 (^|\.)yammer\.com$
 (^|\.)yammerusercontent\.com$
 
-# Netflix & MytvSUPER
+# MytvSUPER
 (^|\.)\w*nowtv100\w*\.\w*$
 (^|\.)\w*rthklive\w*\.\w*$
 (^|\.)mytvsuper\.com$
+
+# Netflix
+(^|\.)fast\.com$
 (^|\.)netflix\.com$
 (^|\.)netflix\.net$
+(^|\.)netflixdnstest0\.com$
+(^|\.)netflixdnstest1\.com$
+(^|\.)netflixdnstest2\.com$
+(^|\.)netflixdnstest3\.com$
+(^|\.)netflixdnstest4\.com$
+(^|\.)netflixdnstest5\.com$
+(^|\.)netflixdnstest6\.com$
+(^|\.)netflixdnstest7\.com$
+(^|\.)netflixdnstest8\.com$
+(^|\.)netflixdnstest9\.com$
 (^|\.)nflxext\.com$
 (^|\.)nflximg\.com$
 (^|\.)nflximg\.net$
+(^|\.)nflxso\.net$
 (^|\.)nflxvideo\.net$
-(^|\.)tvb\.com$
 8.41.4.0/24
 23.246.0.0/18
 37.77.184.0/21
+38.72.126.0/24
 45.57.0.0/17
 64.120.128.0/17
 66.197.128.0/17
 69.53.224.0/19
+103.87.204.0/22
 108.175.32.0/20
 185.2.220.0/22
 185.9.188.0/22
@@ -6062,11 +6073,50 @@
 198.38.96.0/19
 198.45.48.0/20
 207.45.72.0/22
-208.75.76.0/24
+208.75.76.0/22
+
+# OneDrive
+(^|\.)\w*1drv\w*\.\w*$
+(^|\.)\w*onedrive\w*\.\w*$
+(^|\.)\w*skydrive\w*\.\w*$
+(^|\.)livefilestore\.com$
+(^|\.)oneclient\.sfx\.ms$
+(^|\.)onedrive\.com$
+(^|\.)onedrive\.live\.com$
+(^|\.)photos\.live\.com$
+(^|\.)skydrive\.wns\.windows\.com$
+(^|\.)spoprod-a\.akamaihd\.net$
+(^|\.)storage\.live.com$
+(^|\.)storage\.msn.com$
 
 # Pixiv
 (^|\.)pixiv\.net$
 (^|\.)pximg\.net$
+
+# Porn
+(^|\.)\w*porn\w*\.\w*$
+(^|\.)8teenxxx\.com$
+(^|\.)ahcdn\.com$
+(^|\.)bcvcdn\.com$
+(^|\.)bongacams\.com$
+(^|\.)chaturbate\.com$
+(^|\.)dditscdn\.com$
+(^|\.)livejasmin\.com$
+(^|\.)phncdn\.com$
+(^|\.)phprcdn\.com$
+(^|\.)pornhub\.com$
+(^|\.)pornhubpremium\.com$
+(^|\.)rdtcdn\.com$
+(^|\.)redtube\.com$
+(^|\.)sb-cd\.com$
+(^|\.)spankbang\.com$
+(^|\.)t66y\.com$
+(^|\.)xhamster\.com$
+(^|\.)xnxx-cdn\.com$
+(^|\.)xnxx\.com$
+(^|\.)xvideos-cdn\.com$
+(^|\.)xvideos\.com$
+(^|\.)ypncdn\.com$
 
 # ResiloSync
 (^|\.)config\.getsync\.com$
@@ -6080,6 +6130,7 @@
 # Steam
 (^|\.)fanatical\.com$
 (^|\.)humblebundle\.com$
+(^|\.)steam-chat\.com$
 (^|\.)steamcommunity\.com$
 (^|\.)steampowered\.com$
 (^|\.)steamstatic\.com$
@@ -6090,6 +6141,7 @@
 (^|\.)telegra\.ph$
 (^|\.)telegram\.me$
 (^|\.)telegram\.org$
+(^|\.)telesco\.pe$
 91.108.0.0/16
 109.239.140.0/24
 149.154.160.0/20
@@ -6101,7 +6153,7 @@
 (^|\.)twitch\.tv$
 (^|\.)ttvnw\.net$
 (^|\.)jtvnw\.net$
-(^|\.)akamaized\.net$
+(^|\.)(\S*)ttvnw\.akamaized\.net$
 
 # Twitter
 (^|\.)t\.co$
@@ -6125,6 +6177,20 @@
 158.85.224.160/27
 75.126.150.0/16
 69.171.235.0/16
+
+# Wikipedia 维基相关域名
+(^|\.)mediawiki\.org$
+(^|\.)wikibooks\.org$
+(^|\.)wikidata\.org$
+(^|\.)wikileaks\.org$
+(^|\.)wikimedia\.org$
+(^|\.)wikinews\.org$
+(^|\.)wikipedia\.org$
+(^|\.)wikiquote\.org$
+(^|\.)wikisource\.org$
+(^|\.)wikiversity\.org$
+(^|\.)wikivoyage\.org$
+(^|\.)wiktionary\.org$
 
 #飞流直播
 (^|\.)neulion\.com$

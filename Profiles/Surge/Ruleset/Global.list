@@ -54,6 +54,7 @@ DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telesco.pe
 IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.8.0/22,no-resolve
 IP-CIDR,91.108.12.0/22,no-resolve
@@ -252,6 +253,7 @@ DOMAIN-SUFFIX,nikkei.com
 DOMAIN-SUFFIX,nofile.io
 DOMAIN-SUFFIX,now.com
 DOMAIN-SUFFIX,nrk.no
+DOMAIN-SUFFIX,nyaa.si
 DOMAIN-SUFFIX,nyt.com
 DOMAIN-SUFFIX,nytchina.com
 DOMAIN-SUFFIX,nytcn.me
@@ -268,6 +270,7 @@ DOMAIN-SUFFIX,overcast.fm
 DOMAIN-SUFFIX,paltalk.com
 DOMAIN-SUFFIX,pao-pao.net
 DOMAIN-SUFFIX,parsevideo.com
+DOMAIN-SUFFIX,pawoo.net
 DOMAIN-SUFFIX,pbxes.com
 DOMAIN-SUFFIX,pcdvd.com.tw
 DOMAIN-SUFFIX,pchome.com.tw
@@ -295,6 +298,7 @@ DOMAIN-SUFFIX,readmoo.com
 DOMAIN-SUFFIX,redbubble.com
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
 DOMAIN-SUFFIX,resilio.com
 DOMAIN-SUFFIX,reuters.com
 DOMAIN-SUFFIX,reutersmedia.net
@@ -349,6 +353,7 @@ DOMAIN-SUFFIX,washingtonpost.com
 DOMAIN-SUFFIX,wattpad.com
 DOMAIN-SUFFIX,whoer.net
 DOMAIN-SUFFIX,wikimapia.org
+DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikiquote.org
 DOMAIN-SUFFIX,wikiwand.com
@@ -483,6 +488,7 @@ DOMAIN-SUFFIX,admin.recaptcha.net
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,shattered.io
 DOMAIN-SUFFIX,synergyse.com
+DOMAIN-SUFFIX,telephony.goog
 DOMAIN-SUFFIX,tensorflow.org
 DOMAIN-SUFFIX,tfhub.dev
 DOMAIN-SUFFIX,tiltbrush.com
@@ -538,7 +544,9 @@ DOMAIN-SUFFIX,gigacircle.com
 DOMAIN-SUFFIX,hk-pub.com
 DOMAIN-SUFFIX,hosting.co.uk
 DOMAIN-SUFFIX,hwcdn.net
+DOMAIN-SUFFIX,ib.metapix.net
 DOMAIN-SUFFIX,ifixit.com
+DOMAIN-SUFFIX,inkbunny.net
 DOMAIN-SUFFIX,iphone4hongkong.com
 DOMAIN-SUFFIX,iphonetaiwan.org
 DOMAIN-SUFFIX,iptvbin.com

@@ -1,6 +1,7 @@
 # 代理列表
 
 # MyList && Other
+DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,bit.no.com
 DOMAIN-SUFFIX,btlibrary.me
 DOMAIN-SUFFIX,cccat.io
@@ -18,6 +19,7 @@ DOMAIN-SUFFIX,xn--i2ru8q2qg.com
 DOMAIN-SUFFIX,yunpanjingling.com
 
 # 国外域名
+DOMAIN-SUFFIX,eu
 DOMAIN-SUFFIX,hk
 DOMAIN-SUFFIX,jp
 DOMAIN-SUFFIX,kr
@@ -231,7 +233,6 @@ DOMAIN-SUFFIX,akademiye.org
 DOMAIN-SUFFIX,akamai.net
 DOMAIN-SUFFIX,akamaihd.net
 DOMAIN-SUFFIX,akamaistream.net
-DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,akiba-online.com
 DOMAIN-SUFFIX,akiba-web.com
 DOMAIN-SUFFIX,akow.org
@@ -2555,7 +2556,6 @@ DOMAIN-SUFFIX,ipredator.se
 DOMAIN-SUFFIX,iptv.com.tw
 DOMAIN-SUFFIX,iptvbin.com
 DOMAIN-SUFFIX,ipvanish.com
-DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iredmail.org
 DOMAIN-SUFFIX,irib.ir
 DOMAIN-SUFFIX,ironpython.net
@@ -2948,7 +2948,6 @@ DOMAIN-SUFFIX,lvv2.com
 DOMAIN-SUFFIX,lyfhk.net
 DOMAIN-SUFFIX,lzmtnews.org
 DOMAIN-SUFFIX,m-sport.co.uk
-DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,m.me
 DOMAIN-SUFFIX,macgamestore.com
 DOMAIN-SUFFIX,macrovpn.com
@@ -4477,6 +4476,7 @@ DOMAIN-SUFFIX,tenacy.com
 DOMAIN-SUFFIX,tensorflow.org
 DOMAIN-SUFFIX,tenzinpalmo.com
 DOMAIN-SUFFIX,tew.org
+DOMAIN-SUFFIX,textnow.com
 DOMAIN-SUFFIX,textnow.me
 DOMAIN-SUFFIX,tfhub.dev
 DOMAIN-SUFFIX,thaicn.com
@@ -5553,7 +5553,30 @@ DOMAIN-KEYWORD,uk-live
 DOMAIN-SUFFIX,bbc.co
 DOMAIN-SUFFIX,bbc.com
 
+# Developer 开发者常用国外网站、镜像和论坛
+DOMAIN-SUFFIX,apache.org
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,elastic.co
+DOMAIN-SUFFIX,elastic.com
+DOMAIN-SUFFIX,gcr.io
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,gitlab.io
+DOMAIN-SUFFIX,jitpack.io
+DOMAIN-SUFFIX,maven.org
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,mvnrepository.com
+DOMAIN-SUFFIX,quay.io
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redhat.com
+DOMAIN-SUFFIX,sonatype.org
+DOMAIN-SUFFIX,sourcegraph.com
+DOMAIN-SUFFIX,spring.io
+DOMAIN-SUFFIX,spring.net
+DOMAIN-SUFFIX,stackoverflow.com
+
 # Discord
+DOMAIN-SUFFIX,discord.co
+DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discord.media
 DOMAIN-SUFFIX,discordapp.com
@@ -5633,19 +5656,54 @@ DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,line.naver.jp
 DOMAIN-SUFFIX,nhncorp.jp
-IP-CIDR,103.2.28.0/22,no-resolve
-IP-CIDR,119.235.224.0/21,no-resolve
-IP-CIDR,119.235.232.0/23,no-resolve
+IP-CIDR,103.2.28.0/24,no-resolve
+IP-CIDR,103.2.30.0/23,no-resolve
+IP-CIDR,119.235.224.0/24,no-resolve
+IP-CIDR,119.235.232.0/24,no-resolve
 IP-CIDR,119.235.235.0/24,no-resolve
 IP-CIDR,119.235.236.0/23,no-resolve
-IP-CIDR,125.6.146.0/24,no-resolve
-IP-CIDR,125.6.149.0/24,no-resolve
-IP-CIDR,125.6.190.0/24,no-resolve
-IP-CIDR,125.209.208.0/20,no-resolve
-IP-CIDR,203.104.103.0/24,no-resolve
-IP-CIDR,203.104.128.0/20,no-resolve
-IP-CIDR,203.174.66.64/26,no-resolve
-IP-CIDR,203.174.77.0/24,no-resolve
+IP-CIDR,147.92.128.0/17,no-resolve
+IP-CIDR,203.104.128.0/19,no-resolve
+
+# OneDrive
+DOMAIN-KEYWORD,1drv
+DOMAIN-KEYWORD,onedrive
+DOMAIN-KEYWORD,skydrive
+DOMAIN-SUFFIX,livefilestore.com
+DOMAIN-SUFFIX,oneclient.sfx.ms
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,photos.live.com
+DOMAIN-SUFFIX,skydrive.wns.windows.com
+DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+DOMAIN-SUFFIX,storage.live.com
+DOMAIN-SUFFIX,storage.msn.com
+#DOMAIN-SUFFIX,aria.microsoft.com
+
+# Porn
+DOMAIN-KEYWORD,porn
+DOMAIN-SUFFIX,8teenxxx.com
+DOMAIN-SUFFIX,ahcdn.com
+DOMAIN-SUFFIX,bcvcdn.com
+DOMAIN-SUFFIX,bongacams.com
+DOMAIN-SUFFIX,chaturbate.com
+DOMAIN-SUFFIX,dditscdn.com
+DOMAIN-SUFFIX,livejasmin.com
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,phprcdn.com
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,pornhubpremium.com
+DOMAIN-SUFFIX,rdtcdn.com
+DOMAIN-SUFFIX,redtube.com
+DOMAIN-SUFFIX,sb-cd.com
+DOMAIN-SUFFIX,spankbang.com
+DOMAIN-SUFFIX,t66y.com
+DOMAIN-SUFFIX,xhamster.com
+DOMAIN-SUFFIX,xnxx-cdn.com
+DOMAIN-SUFFIX,xnxx.com
+DOMAIN-SUFFIX,xvideos-cdn.com
+DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,ypncdn.com
 
 # Pixiv
 DOMAIN-SUFFIX,pixiv.net
@@ -5654,6 +5712,7 @@ DOMAIN-SUFFIX,pximg.net
 # Steam
 DOMAIN-SUFFIX,fanatical.com
 DOMAIN-SUFFIX,humblebundle.com
+DOMAIN-SUFFIX,steam-chat.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamstatic.com
@@ -5662,7 +5721,7 @@ DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,ttvnw.net
 DOMAIN-SUFFIX,jtvnw.net
-DOMAIN-SUFFIX,akamaized.net
+DOMAIN-KEYWORD,ttvnw
 
 # Twitter
 DOMAIN-SUFFIX,t.co
@@ -5676,14 +5735,10 @@ DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
-IP-CIDR,91.108.4.0/22,no-resolve
-IP-CIDR,91.108.56.0/22,no-resolve
-IP-CIDR,91.108.56.0/23,no-resolve
+DOMAIN-SUFFIX,telesco.pe
+IP-CIDR,91.108.0.0/16,no-resolve
 IP-CIDR,109.239.140.0/24,no-resolve
-IP-CIDR,149.154.160.0/22,no-resolve
-IP-CIDR,149.154.164.0/22,no-resolve
-IP-CIDR,149.154.168.0/22,no-resolve
-IP-CIDR,149.154.172.0/22,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23d::/48,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
@@ -5704,6 +5759,20 @@ IP-CIDR,184.173.128.0/17,no-resolve
 IP-CIDR,158.85.224.160/27,no-resolve
 IP-CIDR,75.126.150.0/16,no-resolve
 IP-CIDR,69.171.235.0/16,no-resolve
+
+# Wikipedia 维基相关域名
+DOMAIN-SUFFIX,mediawiki.org
+DOMAIN-SUFFIX,wikibooks.org
+DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikileaks.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikinews.org
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikiquote.org
+DOMAIN-SUFFIX,wikisource.org
+DOMAIN-SUFFIX,wikiversity.org
+DOMAIN-SUFFIX,wikivoyage.org
+DOMAIN-SUFFIX,wiktionary.org
 
 #飞流直播
 DOMAIN-SUFFIX,neulion.com

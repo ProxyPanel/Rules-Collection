@@ -158,6 +158,7 @@ DOMAIN-SUFFIX,mytvsuper.com,GlobalMedia
 DOMAIN-SUFFIX,tvb.com,GlobalMedia
 # > Netflix
 USER-AGENT,Argo*,GlobalMedia
+DOMAIN-SUFFIX,fast.com,GlobalMedia
 DOMAIN-SUFFIX,netflix.com,GlobalMedia
 DOMAIN-SUFFIX,netflix.net,GlobalMedia
 DOMAIN-SUFFIX,nflxext.com,GlobalMedia
@@ -195,6 +196,7 @@ USER-AGENT,PBS*,GlobalMedia
 DOMAIN-SUFFIX,pbs.org,GlobalMedia
 # > Pornhub
 DOMAIN-SUFFIX,phncdn.com,GlobalMedia
+DOMAIN-SUFFIX,phprcdn.com,GlobalMedia
 DOMAIN-SUFFIX,pornhub.com,GlobalMedia
 DOMAIN-SUFFIX,pornhubpremium.com,GlobalMedia
 # > 台湾好
