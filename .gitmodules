@@ -2,3 +2,23 @@
 	path = ACL4SSR
 	url = https://github.com/ACL4SSR/ACL4SSR.git
 	branch = master
+[submodule "Profiles"]
+	path = Profiles
+	url = https://github.com/DivineEngine/Profiles.git
+	branch = master
+[submodule "Rules"]
+	path = Rules
+	url = https://github.com/GeQ1an/Rules.git
+	branch = master
+[submodule "Shadowrocket-ADBlock-Rules"]
+	path = Shadowrocket-ADBlock-Rules
+	url = https://github.com/h2y/Shadowrocket-ADBlock-Rules
+	branch = master
+[submodule "SS-Rule-Snippet"]
+	path = SS-Rule-Snippet
+	url = https://github.com/Hackl0us/SS-Rule-Snippet.git
+	branch = master
+[submodule "SSTap-Rule"]
+	path = SSTap-Rule
+	url = https://github.com/FQrabbit/SSTap-Rule.git
+	branch = master

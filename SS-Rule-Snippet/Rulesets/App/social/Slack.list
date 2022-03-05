@@ -1,7 +1,0 @@
-USER-AGENT,Slack*
-
-PROCESS-NAME,Slack
-
-DOMAIN-SUFFIX,slack-edge.com
-DOMAIN-SUFFIX,slack.com
-DOMAIN-SUFFIX,slack-msgs.com
